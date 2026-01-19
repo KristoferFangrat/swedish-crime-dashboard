@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import streamlit as st
 import snowflake.connector
 import pandas as pd
@@ -49,6 +50,85 @@ st.markdown("""
 This dashboard provides interactive analysis of Swedish police events data from the Polisen API.
 Explore crime trends, patterns by time and location, and overall statistics.
 """)
+
+# Apply dark theme by default
+st.markdown("""
+<style>
+/* Dark theme CSS - selective styling */
+body {
+    background-color: #1a1a1a !important;
+    color: #ffffff !important;
+}
+
+[data-testid="stAppViewContainer"] {
+    background-color: #1a1a1a !important;
+}
+
+[data-testid="stSidebar"] {
+    background-color: #1a1a1a !important;
+}
+
+.stMarkdown p, .stMarkdown h1, .stMarkdown h2, .stMarkdown h3, .stMarkdown h4, .stMarkdown h5, .stMarkdown h6 {
+    color: #ffffff !important;
+}
+
+[data-testid="stMetric"] {
+    background-color: #2a2a2a !important;
+    color: #ffffff !important;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+[data-testid="stDataFrame"] {
+    background-color: #2a2a2a !important;
+    color: #ffffff !important;
+}
+
+table {
+    background-color: #2a2a2a !important;
+    color: #ffffff !important;
+}
+
+th, td {
+    background-color: #2a2a2a !important;
+    color: #ffffff !important;
+    border-color: #444444 !important;
+}
+
+.stSelectbox, .stCheckbox, .stRadio {
+    color: #ffffff !important;
+}
+
+input, select, textarea {
+    background-color: #2a2a2a !important;
+    color: #ffffff !important;
+    border-color: #444444 !important;
+}
+
+[data-testid="stInfo"] {
+    background-color: #2a2a2a !important;
+    color: #ffffff !important;
+}
+
+button {
+    background-color: #FF0000 !important;
+    color: #ffffff !important;
+}
+
+button:hover {
+    background-color: #cc0000 !important;
+}
+
+hr {
+    border-color: #444444 !important;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar-thumb {
+    background-color: #444444 !important;
+}
+</style>
+""", unsafe_allow_html=True)
 
 
 # Sidebar
@@ -198,7 +278,20 @@ LIMIT 15
 df4 = get_data(query4)
 
 if df4 is not None:
-    df4["location_name"] = df4["LOCATION"].str.extract(r"'name':\s*'([^']*)'")
+    import json
+    
+    def extract_location_name(location):
+        if isinstance(location, dict):
+            return location.get('name', 'Unknown')
+        elif isinstance(location, str):
+            try:
+                loc_dict = json.loads(location)
+                return loc_dict.get('name', 'Unknown')
+            except:
+                return 'Unknown'
+        return 'Unknown'
+    
+    df4["location_name"] = df4["LOCATION"].apply(extract_location_name)
 
     fig4 = px.bar(
         df4,
@@ -211,7 +304,7 @@ if df4 is not None:
     )
 
     fig4.update_layout(height=400, showlegend=False)
-    st.plotly_chart(fig4, width="stretch")
+    st.plotly_chart(fig4, use_container_width=True)
 
 
 # =======================
@@ -258,7 +351,26 @@ LIMIT 100
 df_raw = get_data(query_raw)
 
 if df_raw is not None:
-    df_raw["location_name"] = df_raw["LOCATION"].str.extract(r'"name":\s*"([^"]*)"')
+    # Decode Unicode escape sequences in JSON strings
+    import json
+    for col in df_raw.select_dtypes(include=['object']).columns:
+        if col == 'LOCATION':
+            # Handle JSON with escaped Unicode
+            df_raw[col] = df_raw[col].apply(lambda x: json.loads(x) if isinstance(x, str) and x.startswith('{') else x)
+    
+    # Extract location name handling both dict and string formats
+    def extract_location_name(location):
+        if isinstance(location, dict):
+            return location.get('name', 'Unknown')
+        elif isinstance(location, str):
+            try:
+                loc_dict = json.loads(location)
+                return loc_dict.get('name', 'Unknown')
+            except:
+                return 'Unknown'
+        return 'Unknown'
+    
+    df_raw["location_name"] = df_raw["LOCATION"].apply(extract_location_name)
     df_raw["day_name"] = df_raw["DAY_OF_WEEK"].map(day_names)
 
     display_df = df_raw[
@@ -285,13 +397,14 @@ if df_raw is not None:
                 map_df,
                 lat='latitude',
                 lon='longitude',
-                hover_name='Location',
                 hover_data={
                     'Type': True, 
                     'Event ID': True, 
                     'latitude': ':.4f', 
                     'longitude': ':.4f',
-                    'Location': False  # Hide Location from hover_data since it's the hover_name
+                    'Location': False,
+                    'Date & Time': False,
+                    'Day': False
                 },
                 labels={'Type': 'Crime Type'},
                 title='Crime Events Map',
