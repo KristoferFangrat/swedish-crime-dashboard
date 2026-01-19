@@ -1,0 +1,12 @@
+[runtime]
+log_level = "INFO"
+pipeline_name = "crime_pipeline"
+destination = "snowflake"
+
+[sources.snowflake]
+host = "${SNOWFLAKE_ACCOUNT}.snowflakecomputing.com"
+port = 443
+database = "crime_db"
+schema = "PUBLIC"
+warehouse = "crime_wh"
+role = "dlt_role"

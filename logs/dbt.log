@@ -1,0 +1,2089 @@
+[0m12:22:56.512922 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028C2C8BB8D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028C2C8B86D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028C2C8BAA90>]}
+
+
+============================== 12:22:56.517040 | 73c32a4b-229b-4115-83e5-5216850e3d4a ==============================
+[0m12:22:56.517040 [info ] [MainThread]: Running with dbt=1.8.0
+[0m12:22:56.517704 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:/DE23/Crime', 'debug': 'False', 'warn_error': 'None', 'log_path': 'C:\\DE23\\Crime\\logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug --profiles-dir C:/DE23/Crime', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m12:22:56.548682 [info ] [MainThread]: dbt version: 1.8.0
+[0m12:22:56.550192 [info ] [MainThread]: python version: 3.11.8
+[0m12:22:56.550749 [info ] [MainThread]: python path: C:\Users\krist\AppData\Local\Programs\Python\Python311\python.exe
+[0m12:22:56.550749 [info ] [MainThread]: os info: Windows-10-10.0.26200-SP0
+[0m12:22:56.557424 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'SNOWFLAKE_ACCOUNT'
+[0m12:22:56.558936 [debug] [MainThread]: Command `dbt debug` failed at 12:22:56.558936 after 0.12 seconds
+[0m12:22:56.559941 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028C2C8C0910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028C2C915750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028C2C915F10>]}
+[0m12:22:56.560446 [debug] [MainThread]: Flushing usage events
+[0m12:23:17.646888 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EA91EFA6D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EA91EF8650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EA91EFBA50>]}
+
+
+============================== 12:23:17.651517 | c82d709d-816f-44ff-9c9a-5798ee9734fd ==============================
+[0m12:23:17.651517 [info ] [MainThread]: Running with dbt=1.8.0
+[0m12:23:17.651517 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '.', 'debug': 'False', 'version_check': 'True', 'log_path': 'C:\\DE23\\Crime\\logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt debug --profiles-dir .', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m12:23:17.668000 [info ] [MainThread]: dbt version: 1.8.0
+[0m12:23:17.669565 [info ] [MainThread]: python version: 3.11.8
+[0m12:23:17.669565 [info ] [MainThread]: python path: C:\Users\krist\AppData\Local\Programs\Python\Python311\python.exe
+[0m12:23:17.669565 [info ] [MainThread]: os info: Windows-10-10.0.26200-SP0
+[0m12:23:17.675948 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'SNOWFLAKE_ACCOUNT'
+[0m12:23:17.676987 [debug] [MainThread]: Command `dbt debug` failed at 12:23:17.676987 after 0.13 seconds
+[0m12:23:17.678000 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EA91F56990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EA91F008D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EA91F338D0>]}
+[0m12:23:17.678000 [debug] [MainThread]: Flushing usage events
+[0m12:23:43.216528 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018ABF6E7890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018ABF68B690>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018ABF688450>]}
+
+
+============================== 12:23:43.219688 | 16235da0-e3e3-40a3-9960-d99a7e7c716a ==============================
+[0m12:23:43.219688 [info ] [MainThread]: Running with dbt=1.8.0
+[0m12:23:43.222167 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '.', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'C:\\DE23\\Crime\\logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug --profiles-dir .', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m12:23:43.242945 [info ] [MainThread]: dbt version: 1.8.0
+[0m12:23:43.243471 [info ] [MainThread]: python version: 3.11.8
+[0m12:23:43.245027 [info ] [MainThread]: python path: C:\Users\krist\AppData\Local\Programs\Python\Python311\python.exe
+[0m12:23:43.245027 [info ] [MainThread]: os info: Windows-10-10.0.26200-SP0
+[0m12:23:49.439620 [info ] [MainThread]: Using profiles dir at .
+[0m12:23:49.439620 [info ] [MainThread]: Using profiles.yml file at .\profiles.yml
+[0m12:23:49.441162 [info ] [MainThread]: Using dbt_project.yml file at C:\DE23\Crime\dbt_project.yml
+[0m12:23:49.441162 [info ] [MainThread]: adapter type: snowflake
+[0m12:23:49.442696 [info ] [MainThread]: adapter version: 1.8.0
+[0m12:23:49.447267 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+The `data-paths` config has been renamed to `seed-paths`. Please update your
+`dbt_project.yml` configuration to reflect this change.
+[0m12:23:49.448817 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': '16235da0-e3e3-40a3-9960-d99a7e7c716a', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018AD956A950>]}
+[0m12:23:49.520564 [info ] [MainThread]: Configuration:
+[0m12:23:49.520564 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m12:23:49.522108 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m12:23:49.522108 [info ] [MainThread]: Required dependencies:
+[0m12:23:49.523659 [debug] [MainThread]: Executing "git --help"
+[0m12:23:49.547398 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m12:23:49.548934 [debug] [MainThread]: STDERR: "b''"
+[0m12:23:49.548934 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m12:23:49.548934 [info ] [MainThread]: Connection:
+[0m12:23:49.550485 [info ] [MainThread]:   account: dhkaoho-nt11288
+[0m12:23:49.550485 [info ] [MainThread]:   user: KRISTOFERFANGRAT
+[0m12:23:49.552050 [info ] [MainThread]:   database: crime_db
+[0m12:23:49.552050 [info ] [MainThread]:   warehouse: crime_wh
+[0m12:23:49.552050 [info ] [MainThread]:   role: ACCOUNTADMIN
+[0m12:23:49.553611 [info ] [MainThread]:   schema: staging
+[0m12:23:49.553611 [info ] [MainThread]:   authenticator: None
+[0m12:23:49.553611 [info ] [MainThread]:   oauth_client_id: None
+[0m12:23:49.555160 [info ] [MainThread]:   query_tag: None
+[0m12:23:49.555160 [info ] [MainThread]:   client_session_keep_alive: False
+[0m12:23:49.555160 [info ] [MainThread]:   host: None
+[0m12:23:49.555160 [info ] [MainThread]:   port: None
+[0m12:23:49.556709 [info ] [MainThread]:   proxy_host: None
+[0m12:23:49.557385 [info ] [MainThread]:   proxy_port: None
+[0m12:23:49.557903 [info ] [MainThread]:   protocol: None
+[0m12:23:49.558416 [info ] [MainThread]:   connect_retries: 1
+[0m12:23:49.558416 [info ] [MainThread]:   connect_timeout: None
+[0m12:23:49.558988 [info ] [MainThread]:   retry_on_database_errors: False
+[0m12:23:49.559525 [info ] [MainThread]:   retry_all: False
+[0m12:23:49.559525 [info ] [MainThread]:   insecure_mode: False
+[0m12:23:49.560538 [info ] [MainThread]:   reuse_connections: None
+[0m12:23:49.561079 [info ] [MainThread]: Registered adapter: snowflake=1.8.0
+[0m12:23:49.562116 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m12:23:49.562116 [debug] [MainThread]: Using snowflake connection "debug"
+[0m12:23:49.563125 [debug] [MainThread]: On debug: select 1 as id
+[0m12:23:49.563125 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m12:23:50.286292 [debug] [MainThread]: SQL status: SUCCESS 1 in 0.723 seconds
+[0m12:23:50.288402 [debug] [MainThread]: On debug: Close
+[0m12:23:50.337325 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m12:23:50.338867 [info ] [MainThread]: [32mAll checks passed![0m
+[0m12:23:50.340410 [debug] [MainThread]: Command `dbt debug` succeeded at 12:23:50.338867 after 7.19 seconds
+[0m12:23:50.340410 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m12:23:50.340410 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018AB8A0D9D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018ABF460F50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018ABE326150>]}
+[0m12:23:50.340410 [debug] [MainThread]: Flushing usage events
+[0m12:24:00.959666 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000177918CBF90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000177918C8750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000177918CA210>]}
+
+
+============================== 12:24:00.964299 | 4efba7aa-eb58-4945-bbce-53afd4c856a0 ==============================
+[0m12:24:00.964299 [info ] [MainThread]: Running with dbt=1.8.0
+[0m12:24:00.964299 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'C:\\DE23\\Crime\\logs', 'debug': 'False', 'profiles_dir': '.', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt run --profiles-dir .', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m12:24:01.986917 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+The `data-paths` config has been renamed to `seed-paths`. Please update your
+`dbt_project.yml` configuration to reflect this change.
+[0m12:24:01.986917 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': '4efba7aa-eb58-4945-bbce-53afd4c856a0', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001779195C2D0>]}
+[0m12:24:02.249987 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '4efba7aa-eb58-4945-bbce-53afd4c856a0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000177AB650050>]}
+[0m12:24:02.299619 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '4efba7aa-eb58-4945-bbce-53afd4c856a0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017790ECB7D0>]}
+[0m12:24:02.300625 [info ] [MainThread]: Registered adapter: snowflake=1.8.0
+[0m12:24:02.333722 [debug] [MainThread]: checksum: dbb12d416fdb55e3665e4828703bbedf40c5c90ed7ca6ff39bbbfb29b12b0a92, vars: {}, profile: , target: , version: 1.8.0
+[0m12:24:02.335276 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m12:24:02.335276 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '4efba7aa-eb58-4945-bbce-53afd4c856a0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000177AB768710>]}
+[0m12:24:04.511462 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+The `tests` config has been renamed to `data_tests`. Please see
+https://docs.getdbt.com/docs/build/data-tests#new-data_tests-syntax for more
+information.
+[0m12:24:04.511462 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': '4efba7aa-eb58-4945-bbce-53afd4c856a0', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000177ABBB2B90>]}
+[0m12:24:04.741796 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- seeds.crime_analytics
+[0m12:24:04.750971 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '4efba7aa-eb58-4945-bbce-53afd4c856a0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000177ABB95B10>]}
+[0m12:24:04.852602 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '4efba7aa-eb58-4945-bbce-53afd4c856a0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000177ABF2FC10>]}
+[0m12:24:04.852602 [info ] [MainThread]: Found 2 models, 12 data tests, 1 source, 447 macros
+[0m12:24:04.853607 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '4efba7aa-eb58-4945-bbce-53afd4c856a0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000177ABDE2210>]}
+[0m12:24:04.855629 [info ] [MainThread]: 
+[0m12:24:04.855629 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m12:24:04.860167 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_crime_db'
+[0m12:24:04.861171 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_crime_db'
+[0m12:24:04.871090 [debug] [ThreadPool]: Using snowflake connection "list_crime_db"
+[0m12:24:04.873157 [debug] [ThreadPool]: Using snowflake connection "list_crime_db"
+[0m12:24:04.873687 [debug] [ThreadPool]: On list_crime_db: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "connection_name": "list_crime_db"} */
+show terse schemas in database crime_db
+    limit 10000
+[0m12:24:04.874769 [debug] [ThreadPool]: On list_crime_db: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "connection_name": "list_crime_db"} */
+show terse schemas in database crime_db
+    limit 10000
+[0m12:24:04.874769 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m12:24:04.874769 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m12:24:05.649520 [debug] [ThreadPool]: SQL status: SUCCESS 3 in 0.774 seconds
+[0m12:24:05.651032 [debug] [ThreadPool]: On list_crime_db: Close
+[0m12:24:05.669585 [debug] [ThreadPool]: SQL status: SUCCESS 3 in 0.795 seconds
+[0m12:24:05.671096 [debug] [ThreadPool]: On list_crime_db: Close
+[0m12:24:05.723771 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_crime_db, now create_crime_db_staging_mart)
+[0m12:24:05.725509 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_crime_db, now create_crime_db_staging_staging)
+[0m12:24:05.725509 [debug] [ThreadPool]: Creating schema "database: "crime_db"
+schema: "staging_mart"
+"
+[0m12:24:05.725509 [debug] [ThreadPool]: Creating schema "database: "crime_db"
+schema: "staging_staging"
+"
+[0m12:24:05.730794 [debug] [ThreadPool]: Using snowflake connection "create_crime_db_staging_mart"
+[0m12:24:05.734320 [debug] [ThreadPool]: Using snowflake connection "create_crime_db_staging_staging"
+[0m12:24:05.734320 [debug] [ThreadPool]: On create_crime_db_staging_mart: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "connection_name": "create_crime_db_staging_mart"} */
+create schema if not exists crime_db.staging_mart
+[0m12:24:05.735326 [debug] [ThreadPool]: On create_crime_db_staging_staging: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "connection_name": "create_crime_db_staging_staging"} */
+create schema if not exists crime_db.staging_staging
+[0m12:24:05.735326 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m12:24:05.735326 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m12:24:06.336410 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.601 seconds
+[0m12:24:06.337949 [debug] [ThreadPool]: On create_crime_db_staging_mart: Close
+[0m12:24:06.359496 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.623 seconds
+[0m12:24:06.360033 [debug] [ThreadPool]: On create_crime_db_staging_staging: Close
+[0m12:24:06.445914 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_crime_db_staging_mart'
+[0m12:24:06.446924 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_crime_db_staging_staging'
+[0m12:24:06.452959 [debug] [ThreadPool]: Using snowflake connection "list_crime_db_staging_mart"
+[0m12:24:06.455135 [debug] [ThreadPool]: Using snowflake connection "list_crime_db_staging_staging"
+[0m12:24:06.455135 [debug] [ThreadPool]: On list_crime_db_staging_mart: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "connection_name": "list_crime_db_staging_mart"} */
+show terse objects in crime_db.staging_mart limit 10000
+[0m12:24:06.456148 [debug] [ThreadPool]: On list_crime_db_staging_staging: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "connection_name": "list_crime_db_staging_staging"} */
+show terse objects in crime_db.staging_staging limit 10000
+[0m12:24:06.456712 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m12:24:06.457228 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m12:24:07.050073 [debug] [ThreadPool]: SQL status: SUCCESS 0 in 0.593 seconds
+[0m12:24:07.051126 [debug] [ThreadPool]: On list_crime_db_staging_staging: Close
+[0m12:24:07.091821 [debug] [ThreadPool]: SQL status: SUCCESS 0 in 0.635 seconds
+[0m12:24:07.093223 [debug] [ThreadPool]: On list_crime_db_staging_mart: Close
+[0m12:24:07.145110 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '4efba7aa-eb58-4945-bbce-53afd4c856a0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000177AC38A9D0>]}
+[0m12:24:07.145615 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m12:24:07.146623 [info ] [MainThread]: 
+[0m12:24:07.158343 [debug] [Thread-1 (]: Began running node model.crime_analytics.stg_police_events
+[0m12:24:07.159887 [info ] [Thread-1 (]: 1 of 2 START sql table model staging_staging.stg_police_events ................. [RUN]
+[0m12:24:07.159887 [debug] [Thread-1 (]: Acquiring new snowflake connection 'model.crime_analytics.stg_police_events'
+[0m12:24:07.161459 [debug] [Thread-1 (]: Began compiling node model.crime_analytics.stg_police_events
+[0m12:24:07.167644 [debug] [Thread-1 (]: Writing injected SQL for node "model.crime_analytics.stg_police_events"
+[0m12:24:07.170750 [debug] [Thread-1 (]: Began executing node model.crime_analytics.stg_police_events
+[0m12:24:07.194078 [debug] [Thread-1 (]: Writing runtime sql for node "model.crime_analytics.stg_police_events"
+[0m12:24:07.195652 [debug] [Thread-1 (]: Using snowflake connection "model.crime_analytics.stg_police_events"
+[0m12:24:07.197194 [debug] [Thread-1 (]: On model.crime_analytics.stg_police_events: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "node_id": "model.crime_analytics.stg_police_events"} */
+create or replace transient table crime_db.staging_staging.stg_police_events
+         as
+        (
+
+SELECT
+    event_id,
+    name,
+    description,
+    type,
+    location,
+    latitude,
+    longitude,
+    datetime::TIMESTAMP_NTZ AS event_datetime,
+    affected_area,
+    api_response,
+    loaded_at,
+    CURRENT_TIMESTAMP() AS dbt_loaded_at
+FROM crime_db.PUBLIC.police_events_staging
+WHERE event_id IS NOT NULL
+        );
+[0m12:24:07.197194 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m12:24:09.013865 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 1.816 seconds
+[0m12:24:09.031799 [debug] [Thread-1 (]: On model.crime_analytics.stg_police_events: Close
+[0m12:24:09.090036 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '4efba7aa-eb58-4945-bbce-53afd4c856a0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000177ABF1A1D0>]}
+[0m12:24:09.090036 [info ] [Thread-1 (]: 1 of 2 OK created sql table model staging_staging.stg_police_events ............ [[32mSUCCESS 1[0m in 1.93s]
+[0m12:24:09.091573 [debug] [Thread-1 (]: Finished running node model.crime_analytics.stg_police_events
+[0m12:24:09.092580 [debug] [Thread-3 (]: Began running node model.crime_analytics.fct_police_events
+[0m12:24:09.093690 [info ] [Thread-3 (]: 2 of 2 START sql table model staging_mart.fct_police_events .................... [RUN]
+[0m12:24:09.094209 [debug] [Thread-3 (]: Acquiring new snowflake connection 'model.crime_analytics.fct_police_events'
+[0m12:24:09.094895 [debug] [Thread-3 (]: Began compiling node model.crime_analytics.fct_police_events
+[0m12:24:09.097485 [debug] [Thread-3 (]: Writing injected SQL for node "model.crime_analytics.fct_police_events"
+[0m12:24:09.099043 [debug] [Thread-3 (]: Began executing node model.crime_analytics.fct_police_events
+[0m12:24:09.102147 [debug] [Thread-3 (]: Writing runtime sql for node "model.crime_analytics.fct_police_events"
+[0m12:24:09.103693 [debug] [Thread-3 (]: Using snowflake connection "model.crime_analytics.fct_police_events"
+[0m12:24:09.103693 [debug] [Thread-3 (]: On model.crime_analytics.fct_police_events: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "node_id": "model.crime_analytics.fct_police_events"} */
+create or replace transient table crime_db.staging_mart.fct_police_events
+         as
+        (
+
+SELECT
+    event_id,
+    name,
+    description,
+    type,
+    location,
+    latitude,
+    longitude,
+    event_datetime,
+    affected_area,
+    DATE(event_datetime) AS event_date,
+    EXTRACT(HOUR FROM event_datetime) AS event_hour,
+    EXTRACT(DAYOFWEEK FROM event_datetime) AS day_of_week,
+    dbt_loaded_at
+FROM crime_db.staging_staging.stg_police_events
+        );
+[0m12:24:09.105238 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m12:24:10.302073 [debug] [Thread-3 (]: SQL status: SUCCESS 1 in 1.197 seconds
+[0m12:24:10.305091 [debug] [Thread-3 (]: On model.crime_analytics.fct_police_events: Close
+[0m12:24:10.357426 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '4efba7aa-eb58-4945-bbce-53afd4c856a0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000177ABE888D0>]}
+[0m12:24:10.358431 [info ] [Thread-3 (]: 2 of 2 OK created sql table model staging_mart.fct_police_events ............... [[32mSUCCESS 1[0m in 1.26s]
+[0m12:24:10.358934 [debug] [Thread-3 (]: Finished running node model.crime_analytics.fct_police_events
+[0m12:24:10.360511 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m12:24:10.360511 [debug] [MainThread]: Connection 'create_crime_db_staging_staging' was properly closed.
+[0m12:24:10.360511 [debug] [MainThread]: Connection 'create_crime_db_staging_mart' was properly closed.
+[0m12:24:10.362051 [debug] [MainThread]: Connection 'list_crime_db_staging_mart' was properly closed.
+[0m12:24:10.362051 [debug] [MainThread]: Connection 'list_crime_db_staging_staging' was properly closed.
+[0m12:24:10.362643 [debug] [MainThread]: Connection 'model.crime_analytics.stg_police_events' was properly closed.
+[0m12:24:10.363155 [debug] [MainThread]: Connection 'model.crime_analytics.fct_police_events' was properly closed.
+[0m12:24:10.363155 [info ] [MainThread]: 
+[0m12:24:10.363155 [info ] [MainThread]: Finished running 2 table models in 0 hours 0 minutes and 5.51 seconds (5.51s).
+[0m12:24:10.364696 [debug] [MainThread]: Command end result
+[0m12:24:10.389470 [info ] [MainThread]: 
+[0m12:24:10.390477 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m12:24:10.390982 [info ] [MainThread]: 
+[0m12:24:10.390982 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=0 SKIP=0 TOTAL=2
+[0m12:24:10.392379 [debug] [MainThread]: Command `dbt run` succeeded at 12:24:10.392379 after 9.51 seconds
+[0m12:24:10.392379 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017791923410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017791902BD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000177906BD810>]}
+[0m12:24:10.393893 [debug] [MainThread]: Flushing usage events
+[0m12:24:21.406246 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F59B01BF50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F5996DD390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F5996DC3D0>]}
+
+
+============================== 12:24:21.409846 | 719dd0f8-632e-4c7e-8bb1-d816d4cf3395 ==============================
+[0m12:24:21.409846 [info ] [MainThread]: Running with dbt=1.8.0
+[0m12:24:21.411367 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'C:\\DE23\\Crime\\logs', 'profiles_dir': '.', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt test --profiles-dir .', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m12:24:22.431806 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+The `data-paths` config has been renamed to `seed-paths`. Please update your
+`dbt_project.yml` configuration to reflect this change.
+[0m12:24:22.432312 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': '719dd0f8-632e-4c7e-8bb1-d816d4cf3395', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F59C5A7390>]}
+[0m12:24:22.640169 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '719dd0f8-632e-4c7e-8bb1-d816d4cf3395', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F5B4E60910>]}
+[0m12:24:22.688142 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '719dd0f8-632e-4c7e-8bb1-d816d4cf3395', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F59A61F6D0>]}
+[0m12:24:22.689684 [info ] [MainThread]: Registered adapter: snowflake=1.8.0
+[0m12:24:22.698401 [debug] [MainThread]: checksum: dbb12d416fdb55e3665e4828703bbedf40c5c90ed7ca6ff39bbbfb29b12b0a92, vars: {}, profile: , target: , version: 1.8.0
+[0m12:24:22.944277 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m12:24:22.944277 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m12:24:22.948812 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- seeds.crime_analytics
+[0m12:24:22.980016 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '719dd0f8-632e-4c7e-8bb1-d816d4cf3395', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F5B50856D0>]}
+[0m12:24:23.114437 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '719dd0f8-632e-4c7e-8bb1-d816d4cf3395', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F5B53ADF90>]}
+[0m12:24:23.114940 [info ] [MainThread]: Found 2 models, 12 data tests, 1 source, 447 macros
+[0m12:24:23.115945 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '719dd0f8-632e-4c7e-8bb1-d816d4cf3395', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F5B4FF1650>]}
+[0m12:24:23.117968 [info ] [MainThread]: 
+[0m12:24:23.118974 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m12:24:23.120486 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_crime_db_staging_mart'
+[0m12:24:23.120486 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_crime_db_staging_staging'
+[0m12:24:23.133935 [debug] [ThreadPool]: Using snowflake connection "list_crime_db_staging_mart"
+[0m12:24:23.138012 [debug] [ThreadPool]: Using snowflake connection "list_crime_db_staging_staging"
+[0m12:24:23.138523 [debug] [ThreadPool]: On list_crime_db_staging_mart: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "connection_name": "list_crime_db_staging_mart"} */
+show terse objects in crime_db.staging_mart limit 10000
+[0m12:24:23.138523 [debug] [ThreadPool]: On list_crime_db_staging_staging: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "connection_name": "list_crime_db_staging_staging"} */
+show terse objects in crime_db.staging_staging limit 10000
+[0m12:24:23.138523 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m12:24:23.138523 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m12:24:23.871603 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.733 seconds
+[0m12:24:23.874123 [debug] [ThreadPool]: On list_crime_db_staging_mart: Close
+[0m12:24:23.986938 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.848 seconds
+[0m12:24:23.988449 [debug] [ThreadPool]: On list_crime_db_staging_staging: Close
+[0m12:24:24.044233 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '719dd0f8-632e-4c7e-8bb1-d816d4cf3395', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F5B4F95950>]}
+[0m12:24:24.044233 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m12:24:24.045784 [info ] [MainThread]: 
+[0m12:24:24.050307 [debug] [Thread-1 (]: Began running node test.crime_analytics.no_nulls_in_coordinates
+[0m12:24:24.050816 [debug] [Thread-2 (]: Began running node test.crime_analytics.not_null_fct_police_events_event_date.d01c84b136
+[0m12:24:24.050816 [debug] [Thread-3 (]: Began running node test.crime_analytics.not_null_fct_police_events_event_id.b103e71652
+[0m12:24:24.051328 [debug] [Thread-4 (]: Began running node test.crime_analytics.not_null_fct_police_events_type.9acb038624
+[0m12:24:24.051328 [info ] [Thread-1 (]: 1 of 12 START test no_nulls_in_coordinates ..................................... [RUN]
+[0m12:24:24.052644 [info ] [Thread-2 (]: 2 of 12 START test not_null_fct_police_events_event_date ....................... [RUN]
+[0m12:24:24.053220 [info ] [Thread-3 (]: 3 of 12 START test not_null_fct_police_events_event_id ......................... [RUN]
+[0m12:24:24.054236 [info ] [Thread-4 (]: 4 of 12 START test not_null_fct_police_events_type ............................. [RUN]
+[0m12:24:24.054236 [debug] [Thread-1 (]: Acquiring new snowflake connection 'test.crime_analytics.no_nulls_in_coordinates'
+[0m12:24:24.055798 [debug] [Thread-2 (]: Acquiring new snowflake connection 'test.crime_analytics.not_null_fct_police_events_event_date.d01c84b136'
+[0m12:24:24.056342 [debug] [Thread-3 (]: Acquiring new snowflake connection 'test.crime_analytics.not_null_fct_police_events_event_id.b103e71652'
+[0m12:24:24.056848 [debug] [Thread-4 (]: Acquiring new snowflake connection 'test.crime_analytics.not_null_fct_police_events_type.9acb038624'
+[0m12:24:24.056848 [debug] [Thread-1 (]: Began compiling node test.crime_analytics.no_nulls_in_coordinates
+[0m12:24:24.056848 [debug] [Thread-2 (]: Began compiling node test.crime_analytics.not_null_fct_police_events_event_date.d01c84b136
+[0m12:24:24.058397 [debug] [Thread-3 (]: Began compiling node test.crime_analytics.not_null_fct_police_events_event_id.b103e71652
+[0m12:24:24.058397 [debug] [Thread-4 (]: Began compiling node test.crime_analytics.not_null_fct_police_events_type.9acb038624
+[0m12:24:24.065574 [debug] [Thread-1 (]: Writing injected SQL for node "test.crime_analytics.no_nulls_in_coordinates"
+[0m12:24:24.075497 [debug] [Thread-2 (]: Writing injected SQL for node "test.crime_analytics.not_null_fct_police_events_event_date.d01c84b136"
+[0m12:24:24.079620 [debug] [Thread-3 (]: Writing injected SQL for node "test.crime_analytics.not_null_fct_police_events_event_id.b103e71652"
+[0m12:24:24.083678 [debug] [Thread-4 (]: Writing injected SQL for node "test.crime_analytics.not_null_fct_police_events_type.9acb038624"
+[0m12:24:24.084685 [debug] [Thread-1 (]: Began executing node test.crime_analytics.no_nulls_in_coordinates
+[0m12:24:24.101026 [debug] [Thread-1 (]: Writing runtime sql for node "test.crime_analytics.no_nulls_in_coordinates"
+[0m12:24:24.101537 [debug] [Thread-4 (]: Began executing node test.crime_analytics.not_null_fct_police_events_type.9acb038624
+[0m12:24:24.101537 [debug] [Thread-2 (]: Began executing node test.crime_analytics.not_null_fct_police_events_event_date.d01c84b136
+[0m12:24:24.103048 [debug] [Thread-3 (]: Began executing node test.crime_analytics.not_null_fct_police_events_event_id.b103e71652
+[0m12:24:24.105589 [debug] [Thread-4 (]: Writing runtime sql for node "test.crime_analytics.not_null_fct_police_events_type.9acb038624"
+[0m12:24:24.107614 [debug] [Thread-2 (]: Writing runtime sql for node "test.crime_analytics.not_null_fct_police_events_event_date.d01c84b136"
+[0m12:24:24.108629 [debug] [Thread-1 (]: Using snowflake connection "test.crime_analytics.no_nulls_in_coordinates"
+[0m12:24:24.110171 [debug] [Thread-3 (]: Writing runtime sql for node "test.crime_analytics.not_null_fct_police_events_event_id.b103e71652"
+[0m12:24:24.111729 [debug] [Thread-1 (]: On test.crime_analytics.no_nulls_in_coordinates: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "node_id": "test.crime_analytics.no_nulls_in_coordinates"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+      
+    ) dbt_internal_test
+[0m12:24:24.113441 [debug] [Thread-4 (]: Using snowflake connection "test.crime_analytics.not_null_fct_police_events_type.9acb038624"
+[0m12:24:24.113441 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m12:24:24.114448 [debug] [Thread-2 (]: Using snowflake connection "test.crime_analytics.not_null_fct_police_events_event_date.d01c84b136"
+[0m12:24:24.114952 [debug] [Thread-4 (]: On test.crime_analytics.not_null_fct_police_events_type.9acb038624: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "node_id": "test.crime_analytics.not_null_fct_police_events_type.9acb038624"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select type
+from crime_db.staging_mart.fct_police_events
+where type is null
+
+
+
+      
+    ) dbt_internal_test
+[0m12:24:24.114952 [debug] [Thread-3 (]: Using snowflake connection "test.crime_analytics.not_null_fct_police_events_event_id.b103e71652"
+[0m12:24:24.117438 [debug] [Thread-2 (]: On test.crime_analytics.not_null_fct_police_events_event_date.d01c84b136: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "node_id": "test.crime_analytics.not_null_fct_police_events_event_date.d01c84b136"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select event_date
+from crime_db.staging_mart.fct_police_events
+where event_date is null
+
+
+
+      
+    ) dbt_internal_test
+[0m12:24:24.117949 [debug] [Thread-4 (]: Opening a new connection, currently in state init
+[0m12:24:24.117949 [debug] [Thread-3 (]: On test.crime_analytics.not_null_fct_police_events_event_id.b103e71652: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "node_id": "test.crime_analytics.not_null_fct_police_events_event_id.b103e71652"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select event_id
+from crime_db.staging_mart.fct_police_events
+where event_id is null
+
+
+
+      
+    ) dbt_internal_test
+[0m12:24:24.118956 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m12:24:24.120970 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m12:24:24.914534 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 0.796 seconds
+[0m12:24:24.922361 [debug] [Thread-2 (]: On test.crime_analytics.not_null_fct_police_events_event_date.d01c84b136: Close
+[0m12:24:24.927896 [debug] [Thread-3 (]: SQL status: SUCCESS 1 in 0.807 seconds
+[0m12:24:24.929469 [debug] [Thread-3 (]: On test.crime_analytics.not_null_fct_police_events_event_id.b103e71652: Close
+[0m12:24:24.940866 [debug] [Thread-4 (]: SQL status: SUCCESS 1 in 0.823 seconds
+[0m12:24:24.941873 [debug] [Thread-4 (]: On test.crime_analytics.not_null_fct_police_events_type.9acb038624: Close
+[0m12:24:24.976929 [info ] [Thread-2 (]: 2 of 12 PASS not_null_fct_police_events_event_date ............................. [[32mPASS[0m in 0.92s]
+[0m12:24:24.978441 [debug] [Thread-2 (]: Finished running node test.crime_analytics.not_null_fct_police_events_event_date.d01c84b136
+[0m12:24:24.979446 [debug] [Thread-2 (]: Began running node test.crime_analytics.not_null_stg_police_events_event_id.eac01c3ad0
+[0m12:24:24.979446 [info ] [Thread-2 (]: 5 of 12 START test not_null_stg_police_events_event_id ......................... [RUN]
+[0m12:24:24.979446 [info ] [Thread-3 (]: 3 of 12 PASS not_null_fct_police_events_event_id ............................... [[32mPASS[0m in 0.92s]
+[0m12:24:24.979446 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.crime_analytics.not_null_fct_police_events_event_date.d01c84b136, now test.crime_analytics.not_null_stg_police_events_event_id.eac01c3ad0)
+[0m12:24:24.982010 [debug] [Thread-3 (]: Finished running node test.crime_analytics.not_null_fct_police_events_event_id.b103e71652
+[0m12:24:24.982522 [debug] [Thread-2 (]: Began compiling node test.crime_analytics.not_null_stg_police_events_event_id.eac01c3ad0
+[0m12:24:24.982522 [debug] [Thread-3 (]: Began running node test.crime_analytics.not_null_stg_police_events_name.f741cdcfa0
+[0m12:24:24.987225 [debug] [Thread-2 (]: Writing injected SQL for node "test.crime_analytics.not_null_stg_police_events_event_id.eac01c3ad0"
+[0m12:24:24.988755 [info ] [Thread-3 (]: 6 of 12 START test not_null_stg_police_events_name ............................. [RUN]
+[0m12:24:24.988755 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly test.crime_analytics.not_null_fct_police_events_event_id.b103e71652, now test.crime_analytics.not_null_stg_police_events_name.f741cdcfa0)
+[0m12:24:24.990199 [debug] [Thread-1 (]: Snowflake adapter: Snowflake query id: 01c1d5ac-0000-052f-0000-132d00010892
+[0m12:24:24.990746 [debug] [Thread-3 (]: Began compiling node test.crime_analytics.not_null_stg_police_events_name.f741cdcfa0
+[0m12:24:24.991251 [debug] [Thread-2 (]: Began executing node test.crime_analytics.not_null_stg_police_events_event_id.eac01c3ad0
+[0m12:24:24.991763 [debug] [Thread-1 (]: Snowflake adapter: Snowflake error: 001003 (42000): SQL compilation error:
+syntax error line 8 at position 4 unexpected ')'.
+[0m12:24:24.995806 [debug] [Thread-3 (]: Writing injected SQL for node "test.crime_analytics.not_null_stg_police_events_name.f741cdcfa0"
+[0m12:24:24.996310 [info ] [Thread-4 (]: 4 of 12 PASS not_null_fct_police_events_type ................................... [[32mPASS[0m in 0.94s]
+[0m12:24:24.998433 [debug] [Thread-2 (]: Writing runtime sql for node "test.crime_analytics.not_null_stg_police_events_event_id.eac01c3ad0"
+[0m12:24:24.999942 [debug] [Thread-1 (]: On test.crime_analytics.no_nulls_in_coordinates: Close
+[0m12:24:25.000457 [debug] [Thread-4 (]: Finished running node test.crime_analytics.not_null_fct_police_events_type.9acb038624
+[0m12:24:25.001971 [debug] [Thread-3 (]: Began executing node test.crime_analytics.not_null_stg_police_events_name.f741cdcfa0
+[0m12:24:25.003488 [debug] [Thread-4 (]: Began running node test.crime_analytics.not_null_stg_police_events_type.b798cef749
+[0m12:24:25.004759 [debug] [Thread-2 (]: Using snowflake connection "test.crime_analytics.not_null_stg_police_events_event_id.eac01c3ad0"
+[0m12:24:25.007325 [debug] [Thread-3 (]: Writing runtime sql for node "test.crime_analytics.not_null_stg_police_events_name.f741cdcfa0"
+[0m12:24:25.008333 [info ] [Thread-4 (]: 7 of 12 START test not_null_stg_police_events_type ............................. [RUN]
+[0m12:24:25.008845 [debug] [Thread-2 (]: On test.crime_analytics.not_null_stg_police_events_event_id.eac01c3ad0: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "node_id": "test.crime_analytics.not_null_stg_police_events_event_id.eac01c3ad0"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select event_id
+from crime_db.staging_staging.stg_police_events
+where event_id is null
+
+
+
+      
+    ) dbt_internal_test
+[0m12:24:25.009974 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly test.crime_analytics.not_null_fct_police_events_type.9acb038624, now test.crime_analytics.not_null_stg_police_events_type.b798cef749)
+[0m12:24:25.009974 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m12:24:25.010979 [debug] [Thread-4 (]: Began compiling node test.crime_analytics.not_null_stg_police_events_type.b798cef749
+[0m12:24:25.011483 [debug] [Thread-3 (]: Using snowflake connection "test.crime_analytics.not_null_stg_police_events_name.f741cdcfa0"
+[0m12:24:25.016956 [debug] [Thread-4 (]: Writing injected SQL for node "test.crime_analytics.not_null_stg_police_events_type.b798cef749"
+[0m12:24:25.017962 [debug] [Thread-3 (]: On test.crime_analytics.not_null_stg_police_events_name.f741cdcfa0: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "node_id": "test.crime_analytics.not_null_stg_police_events_name.f741cdcfa0"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select name
+from crime_db.staging_staging.stg_police_events
+where name is null
+
+
+
+      
+    ) dbt_internal_test
+[0m12:24:25.019519 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m12:24:25.019519 [debug] [Thread-4 (]: Began executing node test.crime_analytics.not_null_stg_police_events_type.b798cef749
+[0m12:24:25.023350 [debug] [Thread-4 (]: Writing runtime sql for node "test.crime_analytics.not_null_stg_police_events_type.b798cef749"
+[0m12:24:25.024895 [debug] [Thread-4 (]: Using snowflake connection "test.crime_analytics.not_null_stg_police_events_type.b798cef749"
+[0m12:24:25.026445 [debug] [Thread-4 (]: On test.crime_analytics.not_null_stg_police_events_type.b798cef749: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "node_id": "test.crime_analytics.not_null_stg_police_events_type.b798cef749"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select type
+from crime_db.staging_staging.stg_police_events
+where type is null
+
+
+
+      
+    ) dbt_internal_test
+[0m12:24:25.026445 [debug] [Thread-4 (]: Opening a new connection, currently in state closed
+[0m12:24:25.073128 [debug] [Thread-1 (]: Database Error in test no_nulls_in_coordinates (tests\no_nulls_in_coordinates.sql)
+  001003 (42000): SQL compilation error:
+  syntax error line 8 at position 4 unexpected ')'.
+  compiled Code at target\run\crime_analytics\tests\no_nulls_in_coordinates.sql
+[0m12:24:25.075373 [error] [Thread-1 (]: 1 of 12 ERROR no_nulls_in_coordinates .......................................... [[31mERROR[0m in 1.02s]
+[0m12:24:25.075888 [debug] [Thread-1 (]: Finished running node test.crime_analytics.no_nulls_in_coordinates
+[0m12:24:25.077426 [debug] [Thread-1 (]: Began running node test.crime_analytics.source_not_null_crime_police_events_staging_event_id.8de2e4fd94
+[0m12:24:25.077426 [info ] [Thread-1 (]: 8 of 12 START test source_not_null_crime_police_events_staging_event_id ........ [RUN]
+[0m12:24:25.078967 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.crime_analytics.no_nulls_in_coordinates, now test.crime_analytics.source_not_null_crime_police_events_staging_event_id.8de2e4fd94)
+[0m12:24:25.078967 [debug] [Thread-1 (]: Began compiling node test.crime_analytics.source_not_null_crime_police_events_staging_event_id.8de2e4fd94
+[0m12:24:25.083579 [debug] [Thread-1 (]: Writing injected SQL for node "test.crime_analytics.source_not_null_crime_police_events_staging_event_id.8de2e4fd94"
+[0m12:24:25.083579 [debug] [Thread-1 (]: Began executing node test.crime_analytics.source_not_null_crime_police_events_staging_event_id.8de2e4fd94
+[0m12:24:25.086650 [debug] [Thread-1 (]: Writing runtime sql for node "test.crime_analytics.source_not_null_crime_police_events_staging_event_id.8de2e4fd94"
+[0m12:24:25.088181 [debug] [Thread-1 (]: Using snowflake connection "test.crime_analytics.source_not_null_crime_police_events_staging_event_id.8de2e4fd94"
+[0m12:24:25.088181 [debug] [Thread-1 (]: On test.crime_analytics.source_not_null_crime_police_events_staging_event_id.8de2e4fd94: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "node_id": "test.crime_analytics.source_not_null_crime_police_events_staging_event_id.8de2e4fd94"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select event_id
+from crime_db.PUBLIC.police_events_staging
+where event_id is null
+
+
+
+      
+    ) dbt_internal_test
+[0m12:24:25.089717 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m12:24:25.756733 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 0.746 seconds
+[0m12:24:25.758756 [debug] [Thread-2 (]: On test.crime_analytics.not_null_stg_police_events_event_id.eac01c3ad0: Close
+[0m12:24:25.789644 [debug] [Thread-3 (]: SQL status: SUCCESS 1 in 0.771 seconds
+[0m12:24:25.791172 [debug] [Thread-3 (]: On test.crime_analytics.not_null_stg_police_events_name.f741cdcfa0: Close
+[0m12:24:25.798713 [debug] [Thread-4 (]: SQL status: SUCCESS 1 in 0.772 seconds
+[0m12:24:25.801258 [debug] [Thread-4 (]: On test.crime_analytics.not_null_stg_police_events_type.b798cef749: Close
+[0m12:24:25.807515 [info ] [Thread-2 (]: 5 of 12 PASS not_null_stg_police_events_event_id ............................... [[32mPASS[0m in 0.83s]
+[0m12:24:25.808530 [debug] [Thread-2 (]: Finished running node test.crime_analytics.not_null_stg_police_events_event_id.eac01c3ad0
+[0m12:24:25.808530 [debug] [Thread-2 (]: Began running node test.crime_analytics.source_not_null_crime_police_events_staging_name.d4be1df720
+[0m12:24:25.808530 [info ] [Thread-2 (]: 9 of 12 START test source_not_null_crime_police_events_staging_name ............ [RUN]
+[0m12:24:25.810074 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.crime_analytics.not_null_stg_police_events_event_id.eac01c3ad0, now test.crime_analytics.source_not_null_crime_police_events_staging_name.d4be1df720)
+[0m12:24:25.810074 [debug] [Thread-2 (]: Began compiling node test.crime_analytics.source_not_null_crime_police_events_staging_name.d4be1df720
+[0m12:24:25.814785 [debug] [Thread-2 (]: Writing injected SQL for node "test.crime_analytics.source_not_null_crime_police_events_staging_name.d4be1df720"
+[0m12:24:25.817818 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.728 seconds
+[0m12:24:25.819341 [debug] [Thread-1 (]: On test.crime_analytics.source_not_null_crime_police_events_staging_event_id.8de2e4fd94: Close
+[0m12:24:25.820358 [debug] [Thread-2 (]: Began executing node test.crime_analytics.source_not_null_crime_police_events_staging_name.d4be1df720
+[0m12:24:25.824953 [debug] [Thread-2 (]: Writing runtime sql for node "test.crime_analytics.source_not_null_crime_police_events_staging_name.d4be1df720"
+[0m12:24:25.826505 [debug] [Thread-2 (]: Using snowflake connection "test.crime_analytics.source_not_null_crime_police_events_staging_name.d4be1df720"
+[0m12:24:25.828059 [debug] [Thread-2 (]: On test.crime_analytics.source_not_null_crime_police_events_staging_name.d4be1df720: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "node_id": "test.crime_analytics.source_not_null_crime_police_events_staging_name.d4be1df720"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select name
+from crime_db.PUBLIC.police_events_staging
+where name is null
+
+
+
+      
+    ) dbt_internal_test
+[0m12:24:25.828700 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m12:24:25.843648 [info ] [Thread-3 (]: 6 of 12 PASS not_null_stg_police_events_name ................................... [[32mPASS[0m in 0.85s]
+[0m12:24:25.844164 [debug] [Thread-3 (]: Finished running node test.crime_analytics.not_null_stg_police_events_name.f741cdcfa0
+[0m12:24:25.845698 [debug] [Thread-3 (]: Began running node test.crime_analytics.source_unique_crime_police_events_staging_event_id.5986b040f5
+[0m12:24:25.847231 [info ] [Thread-3 (]: 10 of 12 START test source_unique_crime_police_events_staging_event_id ......... [RUN]
+[0m12:24:25.847231 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly test.crime_analytics.not_null_stg_police_events_name.f741cdcfa0, now test.crime_analytics.source_unique_crime_police_events_staging_event_id.5986b040f5)
+[0m12:24:25.848774 [debug] [Thread-3 (]: Began compiling node test.crime_analytics.source_unique_crime_police_events_staging_event_id.5986b040f5
+[0m12:24:25.855990 [debug] [Thread-3 (]: Writing injected SQL for node "test.crime_analytics.source_unique_crime_police_events_staging_event_id.5986b040f5"
+[0m12:24:25.857507 [debug] [Thread-3 (]: Began executing node test.crime_analytics.source_unique_crime_police_events_staging_event_id.5986b040f5
+[0m12:24:25.859517 [debug] [Thread-3 (]: Writing runtime sql for node "test.crime_analytics.source_unique_crime_police_events_staging_event_id.5986b040f5"
+[0m12:24:25.861053 [info ] [Thread-4 (]: 7 of 12 PASS not_null_stg_police_events_type ................................... [[32mPASS[0m in 0.85s]
+[0m12:24:25.862608 [debug] [Thread-4 (]: Finished running node test.crime_analytics.not_null_stg_police_events_type.b798cef749
+[0m12:24:25.863119 [debug] [Thread-4 (]: Began running node test.crime_analytics.unique_fct_police_events_event_id.9a2d51bb05
+[0m12:24:25.863119 [debug] [Thread-3 (]: Using snowflake connection "test.crime_analytics.source_unique_crime_police_events_staging_event_id.5986b040f5"
+[0m12:24:25.864648 [info ] [Thread-4 (]: 11 of 12 START test unique_fct_police_events_event_id .......................... [RUN]
+[0m12:24:25.864648 [debug] [Thread-3 (]: On test.crime_analytics.source_unique_crime_police_events_staging_event_id.5986b040f5: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "node_id": "test.crime_analytics.source_unique_crime_police_events_staging_event_id.5986b040f5"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+select
+    event_id as unique_field,
+    count(*) as n_records
+
+from crime_db.PUBLIC.police_events_staging
+where event_id is not null
+group by event_id
+having count(*) > 1
+
+
+
+      
+    ) dbt_internal_test
+[0m12:24:25.866162 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly test.crime_analytics.not_null_stg_police_events_type.b798cef749, now test.crime_analytics.unique_fct_police_events_event_id.9a2d51bb05)
+[0m12:24:25.866162 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m12:24:25.867174 [debug] [Thread-4 (]: Began compiling node test.crime_analytics.unique_fct_police_events_event_id.9a2d51bb05
+[0m12:24:25.872213 [debug] [Thread-4 (]: Writing injected SQL for node "test.crime_analytics.unique_fct_police_events_event_id.9a2d51bb05"
+[0m12:24:25.874735 [debug] [Thread-4 (]: Began executing node test.crime_analytics.unique_fct_police_events_event_id.9a2d51bb05
+[0m12:24:25.876290 [debug] [Thread-4 (]: Writing runtime sql for node "test.crime_analytics.unique_fct_police_events_event_id.9a2d51bb05"
+[0m12:24:25.877835 [info ] [Thread-1 (]: 8 of 12 PASS source_not_null_crime_police_events_staging_event_id .............. [[32mPASS[0m in 0.80s]
+[0m12:24:25.879388 [debug] [Thread-1 (]: Finished running node test.crime_analytics.source_not_null_crime_police_events_staging_event_id.8de2e4fd94
+[0m12:24:25.879388 [debug] [Thread-1 (]: Began running node test.crime_analytics.unique_stg_police_events_event_id.ca71ac4aa0
+[0m12:24:25.880842 [debug] [Thread-4 (]: Using snowflake connection "test.crime_analytics.unique_fct_police_events_event_id.9a2d51bb05"
+[0m12:24:25.880842 [info ] [Thread-1 (]: 12 of 12 START test unique_stg_police_events_event_id .......................... [RUN]
+[0m12:24:25.881876 [debug] [Thread-4 (]: On test.crime_analytics.unique_fct_police_events_event_id.9a2d51bb05: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "node_id": "test.crime_analytics.unique_fct_police_events_event_id.9a2d51bb05"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+select
+    event_id as unique_field,
+    count(*) as n_records
+
+from crime_db.staging_mart.fct_police_events
+where event_id is not null
+group by event_id
+having count(*) > 1
+
+
+
+      
+    ) dbt_internal_test
+[0m12:24:25.882391 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.crime_analytics.source_not_null_crime_police_events_staging_event_id.8de2e4fd94, now test.crime_analytics.unique_stg_police_events_event_id.ca71ac4aa0)
+[0m12:24:25.882391 [debug] [Thread-4 (]: Opening a new connection, currently in state closed
+[0m12:24:25.883395 [debug] [Thread-1 (]: Began compiling node test.crime_analytics.unique_stg_police_events_event_id.ca71ac4aa0
+[0m12:24:25.887944 [debug] [Thread-1 (]: Writing injected SQL for node "test.crime_analytics.unique_stg_police_events_event_id.ca71ac4aa0"
+[0m12:24:25.890133 [debug] [Thread-1 (]: Began executing node test.crime_analytics.unique_stg_police_events_event_id.ca71ac4aa0
+[0m12:24:25.892646 [debug] [Thread-1 (]: Writing runtime sql for node "test.crime_analytics.unique_stg_police_events_event_id.ca71ac4aa0"
+[0m12:24:25.894182 [debug] [Thread-1 (]: Using snowflake connection "test.crime_analytics.unique_stg_police_events_event_id.ca71ac4aa0"
+[0m12:24:25.894852 [debug] [Thread-1 (]: On test.crime_analytics.unique_stg_police_events_event_id.ca71ac4aa0: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "node_id": "test.crime_analytics.unique_stg_police_events_event_id.ca71ac4aa0"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+select
+    event_id as unique_field,
+    count(*) as n_records
+
+from crime_db.staging_staging.stg_police_events
+where event_id is not null
+group by event_id
+having count(*) > 1
+
+
+
+      
+    ) dbt_internal_test
+[0m12:24:25.894852 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m12:24:26.566530 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 0.737 seconds
+[0m12:24:26.568070 [debug] [Thread-2 (]: On test.crime_analytics.source_not_null_crime_police_events_staging_name.d4be1df720: Close
+[0m12:24:26.616660 [info ] [Thread-2 (]: 9 of 12 PASS source_not_null_crime_police_events_staging_name .................. [[32mPASS[0m in 0.81s]
+[0m12:24:26.618205 [debug] [Thread-2 (]: Finished running node test.crime_analytics.source_not_null_crime_police_events_staging_name.d4be1df720
+[0m12:24:26.628141 [debug] [Thread-4 (]: SQL status: SUCCESS 1 in 0.745 seconds
+[0m12:24:26.630154 [debug] [Thread-4 (]: On test.crime_analytics.unique_fct_police_events_event_id.9a2d51bb05: Close
+[0m12:24:26.634688 [debug] [Thread-3 (]: SQL status: SUCCESS 1 in 0.768 seconds
+[0m12:24:26.636197 [debug] [Thread-3 (]: On test.crime_analytics.source_unique_crime_police_events_staging_event_id.5986b040f5: Close
+[0m12:24:26.658021 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.763 seconds
+[0m12:24:26.659535 [debug] [Thread-1 (]: On test.crime_analytics.unique_stg_police_events_event_id.ca71ac4aa0: Close
+[0m12:24:26.685370 [info ] [Thread-3 (]: 10 of 12 PASS source_unique_crime_police_events_staging_event_id ............... [[32mPASS[0m in 0.84s]
+[0m12:24:26.685370 [info ] [Thread-4 (]: 11 of 12 PASS unique_fct_police_events_event_id ................................ [[32mPASS[0m in 0.82s]
+[0m12:24:26.686887 [debug] [Thread-3 (]: Finished running node test.crime_analytics.source_unique_crime_police_events_staging_event_id.5986b040f5
+[0m12:24:26.687425 [debug] [Thread-4 (]: Finished running node test.crime_analytics.unique_fct_police_events_event_id.9a2d51bb05
+[0m12:24:26.707026 [info ] [Thread-1 (]: 12 of 12 PASS unique_stg_police_events_event_id ................................ [[32mPASS[0m in 0.82s]
+[0m12:24:26.708580 [debug] [Thread-1 (]: Finished running node test.crime_analytics.unique_stg_police_events_event_id.ca71ac4aa0
+[0m12:24:26.710136 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m12:24:26.710136 [debug] [MainThread]: Connection 'list_crime_db_staging_mart' was properly closed.
+[0m12:24:26.710136 [debug] [MainThread]: Connection 'list_crime_db_staging_staging' was properly closed.
+[0m12:24:26.710136 [debug] [MainThread]: Connection 'test.crime_analytics.unique_stg_police_events_event_id.ca71ac4aa0' was properly closed.
+[0m12:24:26.711679 [debug] [MainThread]: Connection 'test.crime_analytics.source_not_null_crime_police_events_staging_name.d4be1df720' was properly closed.
+[0m12:24:26.711679 [debug] [MainThread]: Connection 'test.crime_analytics.source_unique_crime_police_events_staging_event_id.5986b040f5' was properly closed.
+[0m12:24:26.711679 [debug] [MainThread]: Connection 'test.crime_analytics.unique_fct_police_events_event_id.9a2d51bb05' was properly closed.
+[0m12:24:26.713214 [info ] [MainThread]: 
+[0m12:24:26.713214 [info ] [MainThread]: Finished running 12 data tests in 0 hours 0 minutes and 3.60 seconds (3.60s).
+[0m12:24:26.714766 [debug] [MainThread]: Command end result
+[0m12:24:26.742236 [info ] [MainThread]: 
+[0m12:24:26.743785 [info ] [MainThread]: [31mCompleted with 1 error and 0 warnings:[0m
+[0m12:24:26.743785 [info ] [MainThread]: 
+[0m12:24:26.743785 [error] [MainThread]:   Database Error in test no_nulls_in_coordinates (tests\no_nulls_in_coordinates.sql)
+  001003 (42000): SQL compilation error:
+  syntax error line 8 at position 4 unexpected ')'.
+  compiled Code at target\run\crime_analytics\tests\no_nulls_in_coordinates.sql
+[0m12:24:26.745328 [info ] [MainThread]: 
+[0m12:24:26.745328 [info ] [MainThread]: Done. PASS=11 WARN=0 ERROR=1 SKIP=0 TOTAL=12
+[0m12:24:26.746872 [debug] [MainThread]: Command `dbt test` failed at 12:24:26.746872 after 5.42 seconds
+[0m12:24:26.748441 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F59B082FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F5943303D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F594330610>]}
+[0m12:24:26.749041 [debug] [MainThread]: Flushing usage events
+[0m12:24:39.654124 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BB9A100D50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BB9A374A90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BB9A323C10>]}
+
+
+============================== 12:24:39.657864 | fea9d2e6-9093-4351-98c3-914ffe96f7f4 ==============================
+[0m12:24:39.657864 [info ] [MainThread]: Running with dbt=1.8.0
+[0m12:24:39.659453 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '.', 'log_path': 'C:\\DE23\\Crime\\logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt test --profiles-dir .', 'send_anonymous_usage_stats': 'True'}
+[0m12:24:40.687274 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+The `data-paths` config has been renamed to `seed-paths`. Please update your
+`dbt_project.yml` configuration to reflect this change.
+[0m12:24:40.688402 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': 'fea9d2e6-9093-4351-98c3-914ffe96f7f4', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BBB40EF0D0>]}
+[0m12:24:40.914768 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'fea9d2e6-9093-4351-98c3-914ffe96f7f4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BB9A3B6D10>]}
+[0m12:24:40.963573 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'fea9d2e6-9093-4351-98c3-914ffe96f7f4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BB999336D0>]}
+[0m12:24:40.965144 [info ] [MainThread]: Registered adapter: snowflake=1.8.0
+[0m12:24:40.972483 [debug] [MainThread]: checksum: dbb12d416fdb55e3665e4828703bbedf40c5c90ed7ca6ff39bbbfb29b12b0a92, vars: {}, profile: , target: , version: 1.8.0
+[0m12:24:41.194583 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m12:24:41.194583 [debug] [MainThread]: Partial parsing: updated file: crime_analytics://tests\no_nulls_in_coordinates.sql
+[0m12:24:41.340693 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- seeds.crime_analytics
+[0m12:24:41.351042 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'fea9d2e6-9093-4351-98c3-914ffe96f7f4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BBB1B6DF10>]}
+[0m12:24:41.454080 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'fea9d2e6-9093-4351-98c3-914ffe96f7f4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BBB479B390>]}
+[0m12:24:41.455087 [info ] [MainThread]: Found 2 models, 12 data tests, 1 source, 447 macros
+[0m12:24:41.455087 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'fea9d2e6-9093-4351-98c3-914ffe96f7f4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BBB4201B10>]}
+[0m12:24:41.456878 [info ] [MainThread]: 
+[0m12:24:41.458390 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m12:24:41.459928 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_crime_db_staging_staging'
+[0m12:24:41.459928 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_crime_db_staging_mart'
+[0m12:24:41.471161 [debug] [ThreadPool]: Using snowflake connection "list_crime_db_staging_staging"
+[0m12:24:41.473737 [debug] [ThreadPool]: Using snowflake connection "list_crime_db_staging_mart"
+[0m12:24:41.474771 [debug] [ThreadPool]: On list_crime_db_staging_staging: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "connection_name": "list_crime_db_staging_staging"} */
+show terse objects in crime_db.staging_staging limit 10000
+[0m12:24:41.475312 [debug] [ThreadPool]: On list_crime_db_staging_mart: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "connection_name": "list_crime_db_staging_mart"} */
+show terse objects in crime_db.staging_mart limit 10000
+[0m12:24:41.475830 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m12:24:41.475830 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m12:24:42.227686 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.751 seconds
+[0m12:24:42.229196 [debug] [ThreadPool]: On list_crime_db_staging_mart: Close
+[0m12:24:42.237866 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.762 seconds
+[0m12:24:42.239376 [debug] [ThreadPool]: On list_crime_db_staging_staging: Close
+[0m12:24:42.288926 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'fea9d2e6-9093-4351-98c3-914ffe96f7f4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BBB4319550>]}
+[0m12:24:42.288926 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m12:24:42.290463 [info ] [MainThread]: 
+[0m12:24:42.294529 [debug] [Thread-1 (]: Began running node test.crime_analytics.no_nulls_in_coordinates
+[0m12:24:42.294529 [debug] [Thread-2 (]: Began running node test.crime_analytics.not_null_fct_police_events_event_date.d01c84b136
+[0m12:24:42.296077 [debug] [Thread-3 (]: Began running node test.crime_analytics.not_null_fct_police_events_event_id.b103e71652
+[0m12:24:42.296077 [debug] [Thread-4 (]: Began running node test.crime_analytics.not_null_fct_police_events_type.9acb038624
+[0m12:24:42.296077 [info ] [Thread-1 (]: 1 of 12 START test no_nulls_in_coordinates ..................................... [RUN]
+[0m12:24:42.297482 [info ] [Thread-2 (]: 2 of 12 START test not_null_fct_police_events_event_date ....................... [RUN]
+[0m12:24:42.298186 [info ] [Thread-3 (]: 3 of 12 START test not_null_fct_police_events_event_id ......................... [RUN]
+[0m12:24:42.298698 [info ] [Thread-4 (]: 4 of 12 START test not_null_fct_police_events_type ............................. [RUN]
+[0m12:24:42.299739 [debug] [Thread-1 (]: Acquiring new snowflake connection 'test.crime_analytics.no_nulls_in_coordinates'
+[0m12:24:42.300276 [debug] [Thread-2 (]: Acquiring new snowflake connection 'test.crime_analytics.not_null_fct_police_events_event_date.d01c84b136'
+[0m12:24:42.301302 [debug] [Thread-3 (]: Acquiring new snowflake connection 'test.crime_analytics.not_null_fct_police_events_event_id.b103e71652'
+[0m12:24:42.301302 [debug] [Thread-4 (]: Acquiring new snowflake connection 'test.crime_analytics.not_null_fct_police_events_type.9acb038624'
+[0m12:24:42.302309 [debug] [Thread-1 (]: Began compiling node test.crime_analytics.no_nulls_in_coordinates
+[0m12:24:42.302814 [debug] [Thread-2 (]: Began compiling node test.crime_analytics.not_null_fct_police_events_event_date.d01c84b136
+[0m12:24:42.303326 [debug] [Thread-3 (]: Began compiling node test.crime_analytics.not_null_fct_police_events_event_id.b103e71652
+[0m12:24:42.303326 [debug] [Thread-4 (]: Began compiling node test.crime_analytics.not_null_fct_police_events_type.9acb038624
+[0m12:24:42.309964 [debug] [Thread-1 (]: Writing injected SQL for node "test.crime_analytics.no_nulls_in_coordinates"
+[0m12:24:42.319088 [debug] [Thread-2 (]: Writing injected SQL for node "test.crime_analytics.not_null_fct_police_events_event_date.d01c84b136"
+[0m12:24:42.322619 [debug] [Thread-3 (]: Writing injected SQL for node "test.crime_analytics.not_null_fct_police_events_event_id.b103e71652"
+[0m12:24:42.326938 [debug] [Thread-4 (]: Writing injected SQL for node "test.crime_analytics.not_null_fct_police_events_type.9acb038624"
+[0m12:24:42.327941 [debug] [Thread-1 (]: Began executing node test.crime_analytics.no_nulls_in_coordinates
+[0m12:24:42.329484 [debug] [Thread-2 (]: Began executing node test.crime_analytics.not_null_fct_police_events_event_date.d01c84b136
+[0m12:24:42.329484 [debug] [Thread-3 (]: Began executing node test.crime_analytics.not_null_fct_police_events_event_id.b103e71652
+[0m12:24:42.344177 [debug] [Thread-1 (]: Writing runtime sql for node "test.crime_analytics.no_nulls_in_coordinates"
+[0m12:24:42.345714 [debug] [Thread-4 (]: Began executing node test.crime_analytics.not_null_fct_police_events_type.9acb038624
+[0m12:24:42.347257 [debug] [Thread-2 (]: Writing runtime sql for node "test.crime_analytics.not_null_fct_police_events_event_date.d01c84b136"
+[0m12:24:42.350353 [debug] [Thread-3 (]: Writing runtime sql for node "test.crime_analytics.not_null_fct_police_events_event_id.b103e71652"
+[0m12:24:42.353457 [debug] [Thread-4 (]: Writing runtime sql for node "test.crime_analytics.not_null_fct_police_events_type.9acb038624"
+[0m12:24:42.353457 [debug] [Thread-1 (]: Using snowflake connection "test.crime_analytics.no_nulls_in_coordinates"
+[0m12:24:42.355646 [debug] [Thread-2 (]: Using snowflake connection "test.crime_analytics.not_null_fct_police_events_event_date.d01c84b136"
+[0m12:24:42.356163 [debug] [Thread-3 (]: Using snowflake connection "test.crime_analytics.not_null_fct_police_events_event_id.b103e71652"
+[0m12:24:42.356677 [debug] [Thread-1 (]: On test.crime_analytics.no_nulls_in_coordinates: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "node_id": "test.crime_analytics.no_nulls_in_coordinates"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+      
+    ) dbt_internal_test
+[0m12:24:42.356677 [debug] [Thread-4 (]: Using snowflake connection "test.crime_analytics.not_null_fct_police_events_type.9acb038624"
+[0m12:24:42.357686 [debug] [Thread-2 (]: On test.crime_analytics.not_null_fct_police_events_event_date.d01c84b136: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "node_id": "test.crime_analytics.not_null_fct_police_events_event_date.d01c84b136"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select event_date
+from crime_db.staging_mart.fct_police_events
+where event_date is null
+
+
+
+      
+    ) dbt_internal_test
+[0m12:24:42.358191 [debug] [Thread-3 (]: On test.crime_analytics.not_null_fct_police_events_event_id.b103e71652: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "node_id": "test.crime_analytics.not_null_fct_police_events_event_id.b103e71652"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select event_id
+from crime_db.staging_mart.fct_police_events
+where event_id is null
+
+
+
+      
+    ) dbt_internal_test
+[0m12:24:42.359197 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m12:24:42.359701 [debug] [Thread-4 (]: On test.crime_analytics.not_null_fct_police_events_type.9acb038624: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "node_id": "test.crime_analytics.not_null_fct_police_events_type.9acb038624"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select type
+from crime_db.staging_mart.fct_police_events
+where type is null
+
+
+
+      
+    ) dbt_internal_test
+[0m12:24:42.359701 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m12:24:42.360707 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m12:24:42.362722 [debug] [Thread-4 (]: Opening a new connection, currently in state init
+[0m12:24:43.129765 [debug] [Thread-3 (]: SQL status: SUCCESS 1 in 0.770 seconds
+[0m12:24:43.135958 [debug] [Thread-3 (]: On test.crime_analytics.not_null_fct_police_events_event_id.b103e71652: Close
+[0m12:24:43.138612 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 0.778 seconds
+[0m12:24:43.141680 [debug] [Thread-2 (]: On test.crime_analytics.not_null_fct_police_events_event_date.d01c84b136: Close
+[0m12:24:43.144803 [debug] [Thread-4 (]: SQL status: SUCCESS 1 in 0.782 seconds
+[0m12:24:43.146336 [debug] [Thread-4 (]: On test.crime_analytics.not_null_fct_police_events_type.9acb038624: Close
+[0m12:24:43.171873 [debug] [Thread-1 (]: Snowflake adapter: Snowflake query id: 01c1d5ac-0000-052f-0000-132d000108b2
+[0m12:24:43.174907 [debug] [Thread-1 (]: Snowflake adapter: Snowflake error: 001003 (42000): SQL compilation error:
+syntax error line 8 at position 4 unexpected ')'.
+[0m12:24:43.175914 [debug] [Thread-1 (]: On test.crime_analytics.no_nulls_in_coordinates: Close
+[0m12:24:43.186094 [info ] [Thread-3 (]: 3 of 12 PASS not_null_fct_police_events_event_id ............................... [[32mPASS[0m in 0.89s]
+[0m12:24:43.187216 [debug] [Thread-3 (]: Finished running node test.crime_analytics.not_null_fct_police_events_event_id.b103e71652
+[0m12:24:43.187749 [debug] [Thread-3 (]: Began running node test.crime_analytics.not_null_stg_police_events_event_id.eac01c3ad0
+[0m12:24:43.188252 [info ] [Thread-3 (]: 5 of 12 START test not_null_stg_police_events_event_id ......................... [RUN]
+[0m12:24:43.188906 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly test.crime_analytics.not_null_fct_police_events_event_id.b103e71652, now test.crime_analytics.not_null_stg_police_events_event_id.eac01c3ad0)
+[0m12:24:43.188906 [debug] [Thread-3 (]: Began compiling node test.crime_analytics.not_null_stg_police_events_event_id.eac01c3ad0
+[0m12:24:43.193124 [debug] [Thread-3 (]: Writing injected SQL for node "test.crime_analytics.not_null_stg_police_events_event_id.eac01c3ad0"
+[0m12:24:43.193632 [debug] [Thread-3 (]: Began executing node test.crime_analytics.not_null_stg_police_events_event_id.eac01c3ad0
+[0m12:24:43.196147 [debug] [Thread-3 (]: Writing runtime sql for node "test.crime_analytics.not_null_stg_police_events_event_id.eac01c3ad0"
+[0m12:24:43.199007 [debug] [Thread-3 (]: Using snowflake connection "test.crime_analytics.not_null_stg_police_events_event_id.eac01c3ad0"
+[0m12:24:43.199519 [debug] [Thread-3 (]: On test.crime_analytics.not_null_stg_police_events_event_id.eac01c3ad0: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "node_id": "test.crime_analytics.not_null_stg_police_events_event_id.eac01c3ad0"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select event_id
+from crime_db.staging_staging.stg_police_events
+where event_id is null
+
+
+
+      
+    ) dbt_internal_test
+[0m12:24:43.200524 [info ] [Thread-2 (]: 2 of 12 PASS not_null_fct_police_events_event_date ............................. [[32mPASS[0m in 0.90s]
+[0m12:24:43.201027 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m12:24:43.201027 [info ] [Thread-4 (]: 4 of 12 PASS not_null_fct_police_events_type ................................... [[32mPASS[0m in 0.90s]
+[0m12:24:43.202561 [debug] [Thread-2 (]: Finished running node test.crime_analytics.not_null_fct_police_events_event_date.d01c84b136
+[0m12:24:43.203663 [debug] [Thread-4 (]: Finished running node test.crime_analytics.not_null_fct_police_events_type.9acb038624
+[0m12:24:43.205210 [debug] [Thread-2 (]: Began running node test.crime_analytics.not_null_stg_police_events_name.f741cdcfa0
+[0m12:24:43.205210 [debug] [Thread-4 (]: Began running node test.crime_analytics.not_null_stg_police_events_type.b798cef749
+[0m12:24:43.206768 [info ] [Thread-2 (]: 6 of 12 START test not_null_stg_police_events_name ............................. [RUN]
+[0m12:24:43.206768 [info ] [Thread-4 (]: 7 of 12 START test not_null_stg_police_events_type ............................. [RUN]
+[0m12:24:43.206768 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.crime_analytics.not_null_fct_police_events_event_date.d01c84b136, now test.crime_analytics.not_null_stg_police_events_name.f741cdcfa0)
+[0m12:24:43.208312 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly test.crime_analytics.not_null_fct_police_events_type.9acb038624, now test.crime_analytics.not_null_stg_police_events_type.b798cef749)
+[0m12:24:43.208312 [debug] [Thread-2 (]: Began compiling node test.crime_analytics.not_null_stg_police_events_name.f741cdcfa0
+[0m12:24:43.209865 [debug] [Thread-4 (]: Began compiling node test.crime_analytics.not_null_stg_police_events_type.b798cef749
+[0m12:24:43.212955 [debug] [Thread-2 (]: Writing injected SQL for node "test.crime_analytics.not_null_stg_police_events_name.f741cdcfa0"
+[0m12:24:43.217665 [debug] [Thread-4 (]: Writing injected SQL for node "test.crime_analytics.not_null_stg_police_events_type.b798cef749"
+[0m12:24:43.219208 [debug] [Thread-2 (]: Began executing node test.crime_analytics.not_null_stg_police_events_name.f741cdcfa0
+[0m12:24:43.222665 [debug] [Thread-2 (]: Writing runtime sql for node "test.crime_analytics.not_null_stg_police_events_name.f741cdcfa0"
+[0m12:24:43.222665 [debug] [Thread-4 (]: Began executing node test.crime_analytics.not_null_stg_police_events_type.b798cef749
+[0m12:24:43.226300 [debug] [Thread-4 (]: Writing runtime sql for node "test.crime_analytics.not_null_stg_police_events_type.b798cef749"
+[0m12:24:43.227918 [debug] [Thread-2 (]: Using snowflake connection "test.crime_analytics.not_null_stg_police_events_name.f741cdcfa0"
+[0m12:24:43.229436 [debug] [Thread-2 (]: On test.crime_analytics.not_null_stg_police_events_name.f741cdcfa0: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "node_id": "test.crime_analytics.not_null_stg_police_events_name.f741cdcfa0"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select name
+from crime_db.staging_staging.stg_police_events
+where name is null
+
+
+
+      
+    ) dbt_internal_test
+[0m12:24:43.229436 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m12:24:43.230991 [debug] [Thread-4 (]: Using snowflake connection "test.crime_analytics.not_null_stg_police_events_type.b798cef749"
+[0m12:24:43.233039 [debug] [Thread-4 (]: On test.crime_analytics.not_null_stg_police_events_type.b798cef749: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "node_id": "test.crime_analytics.not_null_stg_police_events_type.b798cef749"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select type
+from crime_db.staging_staging.stg_police_events
+where type is null
+
+
+
+      
+    ) dbt_internal_test
+[0m12:24:43.234609 [debug] [Thread-4 (]: Opening a new connection, currently in state closed
+[0m12:24:43.235753 [debug] [Thread-1 (]: Database Error in test no_nulls_in_coordinates (tests\no_nulls_in_coordinates.sql)
+  001003 (42000): SQL compilation error:
+  syntax error line 8 at position 4 unexpected ')'.
+  compiled Code at target\run\crime_analytics\tests\no_nulls_in_coordinates.sql
+[0m12:24:43.237297 [error] [Thread-1 (]: 1 of 12 ERROR no_nulls_in_coordinates .......................................... [[31mERROR[0m in 0.94s]
+[0m12:24:43.238837 [debug] [Thread-1 (]: Finished running node test.crime_analytics.no_nulls_in_coordinates
+[0m12:24:43.238837 [debug] [Thread-1 (]: Began running node test.crime_analytics.source_not_null_crime_police_events_staging_event_id.8de2e4fd94
+[0m12:24:43.240370 [info ] [Thread-1 (]: 8 of 12 START test source_not_null_crime_police_events_staging_event_id ........ [RUN]
+[0m12:24:43.241798 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.crime_analytics.no_nulls_in_coordinates, now test.crime_analytics.source_not_null_crime_police_events_staging_event_id.8de2e4fd94)
+[0m12:24:43.241798 [debug] [Thread-1 (]: Began compiling node test.crime_analytics.source_not_null_crime_police_events_staging_event_id.8de2e4fd94
+[0m12:24:43.244896 [debug] [Thread-1 (]: Writing injected SQL for node "test.crime_analytics.source_not_null_crime_police_events_staging_event_id.8de2e4fd94"
+[0m12:24:43.246433 [debug] [Thread-1 (]: Began executing node test.crime_analytics.source_not_null_crime_police_events_staging_event_id.8de2e4fd94
+[0m12:24:43.249504 [debug] [Thread-1 (]: Writing runtime sql for node "test.crime_analytics.source_not_null_crime_police_events_staging_event_id.8de2e4fd94"
+[0m12:24:43.251576 [debug] [Thread-1 (]: Using snowflake connection "test.crime_analytics.source_not_null_crime_police_events_staging_event_id.8de2e4fd94"
+[0m12:24:43.252599 [debug] [Thread-1 (]: On test.crime_analytics.source_not_null_crime_police_events_staging_event_id.8de2e4fd94: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "node_id": "test.crime_analytics.source_not_null_crime_police_events_staging_event_id.8de2e4fd94"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select event_id
+from crime_db.PUBLIC.police_events_staging
+where event_id is null
+
+
+
+      
+    ) dbt_internal_test
+[0m12:24:43.253136 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m12:24:43.883460 [debug] [Thread-3 (]: SQL status: SUCCESS 1 in 0.682 seconds
+[0m12:24:43.885551 [debug] [Thread-3 (]: On test.crime_analytics.not_null_stg_police_events_event_id.eac01c3ad0: Close
+[0m12:24:43.919503 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 0.689 seconds
+[0m12:24:43.921013 [debug] [Thread-2 (]: On test.crime_analytics.not_null_stg_police_events_name.f741cdcfa0: Close
+[0m12:24:43.924604 [debug] [Thread-4 (]: SQL status: SUCCESS 1 in 0.690 seconds
+[0m12:24:43.926117 [debug] [Thread-4 (]: On test.crime_analytics.not_null_stg_police_events_type.b798cef749: Close
+[0m12:24:43.933225 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.680 seconds
+[0m12:24:43.934750 [debug] [Thread-1 (]: On test.crime_analytics.source_not_null_crime_police_events_staging_event_id.8de2e4fd94: Close
+[0m12:24:43.936261 [info ] [Thread-3 (]: 5 of 12 PASS not_null_stg_police_events_event_id ............................... [[32mPASS[0m in 0.75s]
+[0m12:24:43.937771 [debug] [Thread-3 (]: Finished running node test.crime_analytics.not_null_stg_police_events_event_id.eac01c3ad0
+[0m12:24:43.939284 [debug] [Thread-3 (]: Began running node test.crime_analytics.source_not_null_crime_police_events_staging_name.d4be1df720
+[0m12:24:43.940398 [info ] [Thread-3 (]: 9 of 12 START test source_not_null_crime_police_events_staging_name ............ [RUN]
+[0m12:24:43.940917 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly test.crime_analytics.not_null_stg_police_events_event_id.eac01c3ad0, now test.crime_analytics.source_not_null_crime_police_events_staging_name.d4be1df720)
+[0m12:24:43.940917 [debug] [Thread-3 (]: Began compiling node test.crime_analytics.source_not_null_crime_police_events_staging_name.d4be1df720
+[0m12:24:43.948081 [debug] [Thread-3 (]: Writing injected SQL for node "test.crime_analytics.source_not_null_crime_police_events_staging_name.d4be1df720"
+[0m12:24:43.949765 [debug] [Thread-3 (]: Began executing node test.crime_analytics.source_not_null_crime_police_events_staging_name.d4be1df720
+[0m12:24:43.952863 [debug] [Thread-3 (]: Writing runtime sql for node "test.crime_analytics.source_not_null_crime_police_events_staging_name.d4be1df720"
+[0m12:24:43.954375 [debug] [Thread-3 (]: Using snowflake connection "test.crime_analytics.source_not_null_crime_police_events_staging_name.d4be1df720"
+[0m12:24:43.954375 [debug] [Thread-3 (]: On test.crime_analytics.source_not_null_crime_police_events_staging_name.d4be1df720: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "node_id": "test.crime_analytics.source_not_null_crime_police_events_staging_name.d4be1df720"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select name
+from crime_db.PUBLIC.police_events_staging
+where name is null
+
+
+
+      
+    ) dbt_internal_test
+[0m12:24:43.955384 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m12:24:43.974841 [info ] [Thread-4 (]: 7 of 12 PASS not_null_stg_police_events_type ................................... [[32mPASS[0m in 0.77s]
+[0m12:24:43.975846 [debug] [Thread-4 (]: Finished running node test.crime_analytics.not_null_stg_police_events_type.b798cef749
+[0m12:24:43.976351 [debug] [Thread-4 (]: Began running node test.crime_analytics.source_unique_crime_police_events_staging_event_id.5986b040f5
+[0m12:24:43.976351 [info ] [Thread-4 (]: 10 of 12 START test source_unique_crime_police_events_staging_event_id ......... [RUN]
+[0m12:24:43.977864 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly test.crime_analytics.not_null_stg_police_events_type.b798cef749, now test.crime_analytics.source_unique_crime_police_events_staging_event_id.5986b040f5)
+[0m12:24:43.978871 [debug] [Thread-4 (]: Began compiling node test.crime_analytics.source_unique_crime_police_events_staging_event_id.5986b040f5
+[0m12:24:43.983485 [debug] [Thread-4 (]: Writing injected SQL for node "test.crime_analytics.source_unique_crime_police_events_staging_event_id.5986b040f5"
+[0m12:24:43.984494 [info ] [Thread-2 (]: 6 of 12 PASS not_null_stg_police_events_name ................................... [[32mPASS[0m in 0.78s]
+[0m12:24:43.986732 [debug] [Thread-2 (]: Finished running node test.crime_analytics.not_null_stg_police_events_name.f741cdcfa0
+[0m12:24:43.987250 [debug] [Thread-4 (]: Began executing node test.crime_analytics.source_unique_crime_police_events_staging_event_id.5986b040f5
+[0m12:24:43.987250 [debug] [Thread-2 (]: Began running node test.crime_analytics.unique_fct_police_events_event_id.9a2d51bb05
+[0m12:24:43.988794 [debug] [Thread-4 (]: Writing runtime sql for node "test.crime_analytics.source_unique_crime_police_events_staging_event_id.5986b040f5"
+[0m12:24:43.990341 [info ] [Thread-1 (]: 8 of 12 PASS source_not_null_crime_police_events_staging_event_id .............. [[32mPASS[0m in 0.75s]
+[0m12:24:43.990341 [info ] [Thread-2 (]: 11 of 12 START test unique_fct_police_events_event_id .......................... [RUN]
+[0m12:24:43.991895 [debug] [Thread-1 (]: Finished running node test.crime_analytics.source_not_null_crime_police_events_staging_event_id.8de2e4fd94
+[0m12:24:43.991895 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.crime_analytics.not_null_stg_police_events_name.f741cdcfa0, now test.crime_analytics.unique_fct_police_events_event_id.9a2d51bb05)
+[0m12:24:43.993433 [debug] [Thread-4 (]: Using snowflake connection "test.crime_analytics.source_unique_crime_police_events_staging_event_id.5986b040f5"
+[0m12:24:43.993433 [debug] [Thread-1 (]: Began running node test.crime_analytics.unique_stg_police_events_event_id.ca71ac4aa0
+[0m12:24:43.995000 [debug] [Thread-2 (]: Began compiling node test.crime_analytics.unique_fct_police_events_event_id.9a2d51bb05
+[0m12:24:43.995000 [debug] [Thread-4 (]: On test.crime_analytics.source_unique_crime_police_events_staging_event_id.5986b040f5: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "node_id": "test.crime_analytics.source_unique_crime_police_events_staging_event_id.5986b040f5"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+select
+    event_id as unique_field,
+    count(*) as n_records
+
+from crime_db.PUBLIC.police_events_staging
+where event_id is not null
+group by event_id
+having count(*) > 1
+
+
+
+      
+    ) dbt_internal_test
+[0m12:24:43.995000 [info ] [Thread-1 (]: 12 of 12 START test unique_stg_police_events_event_id .......................... [RUN]
+[0m12:24:43.999657 [debug] [Thread-2 (]: Writing injected SQL for node "test.crime_analytics.unique_fct_police_events_event_id.9a2d51bb05"
+[0m12:24:43.999657 [debug] [Thread-4 (]: Opening a new connection, currently in state closed
+[0m12:24:44.001215 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.crime_analytics.source_not_null_crime_police_events_staging_event_id.8de2e4fd94, now test.crime_analytics.unique_stg_police_events_event_id.ca71ac4aa0)
+[0m12:24:44.002840 [debug] [Thread-1 (]: Began compiling node test.crime_analytics.unique_stg_police_events_event_id.ca71ac4aa0
+[0m12:24:44.004397 [debug] [Thread-2 (]: Began executing node test.crime_analytics.unique_fct_police_events_event_id.9a2d51bb05
+[0m12:24:44.008431 [debug] [Thread-1 (]: Writing injected SQL for node "test.crime_analytics.unique_stg_police_events_event_id.ca71ac4aa0"
+[0m12:24:44.010451 [debug] [Thread-2 (]: Writing runtime sql for node "test.crime_analytics.unique_fct_police_events_event_id.9a2d51bb05"
+[0m12:24:44.011961 [debug] [Thread-1 (]: Began executing node test.crime_analytics.unique_stg_police_events_event_id.ca71ac4aa0
+[0m12:24:44.012971 [debug] [Thread-2 (]: Using snowflake connection "test.crime_analytics.unique_fct_police_events_event_id.9a2d51bb05"
+[0m12:24:44.015551 [debug] [Thread-1 (]: Writing runtime sql for node "test.crime_analytics.unique_stg_police_events_event_id.ca71ac4aa0"
+[0m12:24:44.015551 [debug] [Thread-2 (]: On test.crime_analytics.unique_fct_police_events_event_id.9a2d51bb05: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "node_id": "test.crime_analytics.unique_fct_police_events_event_id.9a2d51bb05"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+select
+    event_id as unique_field,
+    count(*) as n_records
+
+from crime_db.staging_mart.fct_police_events
+where event_id is not null
+group by event_id
+having count(*) > 1
+
+
+
+      
+    ) dbt_internal_test
+[0m12:24:44.017062 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m12:24:44.018069 [debug] [Thread-1 (]: Using snowflake connection "test.crime_analytics.unique_stg_police_events_event_id.ca71ac4aa0"
+[0m12:24:44.019611 [debug] [Thread-1 (]: On test.crime_analytics.unique_stg_police_events_event_id.ca71ac4aa0: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "node_id": "test.crime_analytics.unique_stg_police_events_event_id.ca71ac4aa0"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+select
+    event_id as unique_field,
+    count(*) as n_records
+
+from crime_db.staging_staging.stg_police_events
+where event_id is not null
+group by event_id
+having count(*) > 1
+
+
+
+      
+    ) dbt_internal_test
+[0m12:24:44.019611 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m12:24:44.614881 [debug] [Thread-3 (]: SQL status: SUCCESS 1 in 0.660 seconds
+[0m12:24:44.617408 [debug] [Thread-3 (]: On test.crime_analytics.source_not_null_crime_police_events_staging_name.d4be1df720: Close
+[0m12:24:44.669992 [info ] [Thread-3 (]: 9 of 12 PASS source_not_null_crime_police_events_staging_name .................. [[32mPASS[0m in 0.73s]
+[0m12:24:44.671501 [debug] [Thread-3 (]: Finished running node test.crime_analytics.source_not_null_crime_police_events_staging_name.d4be1df720
+[0m12:24:44.684425 [debug] [Thread-4 (]: SQL status: SUCCESS 1 in 0.683 seconds
+[0m12:24:44.685935 [debug] [Thread-4 (]: On test.crime_analytics.source_unique_crime_police_events_staging_event_id.5986b040f5: Close
+[0m12:24:44.692631 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 0.675 seconds
+[0m12:24:44.694142 [debug] [Thread-2 (]: On test.crime_analytics.unique_fct_police_events_event_id.9a2d51bb05: Close
+[0m12:24:44.702405 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.682 seconds
+[0m12:24:44.704488 [debug] [Thread-1 (]: On test.crime_analytics.unique_stg_police_events_event_id.ca71ac4aa0: Close
+[0m12:24:44.733406 [info ] [Thread-4 (]: 10 of 12 PASS source_unique_crime_police_events_staging_event_id ............... [[32mPASS[0m in 0.76s]
+[0m12:24:44.734949 [debug] [Thread-4 (]: Finished running node test.crime_analytics.source_unique_crime_police_events_staging_event_id.5986b040f5
+[0m12:24:44.743434 [info ] [Thread-2 (]: 11 of 12 PASS unique_fct_police_events_event_id ................................ [[32mPASS[0m in 0.75s]
+[0m12:24:44.744475 [debug] [Thread-2 (]: Finished running node test.crime_analytics.unique_fct_police_events_event_id.9a2d51bb05
+[0m12:24:44.754816 [info ] [Thread-1 (]: 12 of 12 PASS unique_stg_police_events_event_id ................................ [[32mPASS[0m in 0.75s]
+[0m12:24:44.756364 [debug] [Thread-1 (]: Finished running node test.crime_analytics.unique_stg_police_events_event_id.ca71ac4aa0
+[0m12:24:44.757909 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m12:24:44.759026 [debug] [MainThread]: Connection 'list_crime_db_staging_staging' was properly closed.
+[0m12:24:44.759026 [debug] [MainThread]: Connection 'list_crime_db_staging_mart' was properly closed.
+[0m12:24:44.759026 [debug] [MainThread]: Connection 'test.crime_analytics.unique_stg_police_events_event_id.ca71ac4aa0' was properly closed.
+[0m12:24:44.760560 [debug] [MainThread]: Connection 'test.crime_analytics.unique_fct_police_events_event_id.9a2d51bb05' was properly closed.
+[0m12:24:44.760560 [debug] [MainThread]: Connection 'test.crime_analytics.source_not_null_crime_police_events_staging_name.d4be1df720' was properly closed.
+[0m12:24:44.760560 [debug] [MainThread]: Connection 'test.crime_analytics.source_unique_crime_police_events_staging_event_id.5986b040f5' was properly closed.
+[0m12:24:44.760560 [info ] [MainThread]: 
+[0m12:24:44.762097 [info ] [MainThread]: Finished running 12 data tests in 0 hours 0 minutes and 3.30 seconds (3.30s).
+[0m12:24:44.763643 [debug] [MainThread]: Command end result
+[0m12:24:44.788864 [info ] [MainThread]: 
+[0m12:24:44.791282 [info ] [MainThread]: [31mCompleted with 1 error and 0 warnings:[0m
+[0m12:24:44.791282 [info ] [MainThread]: 
+[0m12:24:44.792678 [error] [MainThread]:   Database Error in test no_nulls_in_coordinates (tests\no_nulls_in_coordinates.sql)
+  001003 (42000): SQL compilation error:
+  syntax error line 8 at position 4 unexpected ')'.
+  compiled Code at target\run\crime_analytics\tests\no_nulls_in_coordinates.sql
+[0m12:24:44.792678 [info ] [MainThread]: 
+[0m12:24:44.794227 [info ] [MainThread]: Done. PASS=11 WARN=0 ERROR=1 SKIP=0 TOTAL=12
+[0m12:24:44.794227 [debug] [MainThread]: Command `dbt test` failed at 12:24:44.794227 after 5.21 seconds
+[0m12:24:44.795684 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BB9A383D50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BB9A393350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BB9A3B5D90>]}
+[0m12:24:44.796233 [debug] [MainThread]: Flushing usage events
+[0m12:24:56.072100 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EE60880450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EE60883710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EE60883A90>]}
+
+
+============================== 12:24:56.076175 | 59b87813-1509-4bea-81b0-8e8ce6038cda ==============================
+[0m12:24:56.076175 [info ] [MainThread]: Running with dbt=1.8.0
+[0m12:24:56.076175 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '.', 'log_path': 'C:\\DE23\\Crime\\logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt test --profiles-dir .', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m12:24:57.105601 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+The `data-paths` config has been renamed to `seed-paths`. Please update your
+`dbt_project.yml` configuration to reflect this change.
+[0m12:24:57.105601 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': '59b87813-1509-4bea-81b0-8e8ce6038cda', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EE7A2B5590>]}
+[0m12:24:57.320596 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '59b87813-1509-4bea-81b0-8e8ce6038cda', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EE7A6CFE50>]}
+[0m12:24:57.369966 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '59b87813-1509-4bea-81b0-8e8ce6038cda', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EE5FE8B710>]}
+[0m12:24:57.371537 [info ] [MainThread]: Registered adapter: snowflake=1.8.0
+[0m12:24:57.378821 [debug] [MainThread]: checksum: dbb12d416fdb55e3665e4828703bbedf40c5c90ed7ca6ff39bbbfb29b12b0a92, vars: {}, profile: , target: , version: 1.8.0
+[0m12:24:57.615105 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m12:24:57.616160 [debug] [MainThread]: Partial parsing: updated file: crime_analytics://tests\no_nulls_in_coordinates.sql
+[0m12:24:57.757104 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- seeds.crime_analytics
+[0m12:24:57.767441 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '59b87813-1509-4bea-81b0-8e8ce6038cda', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EE7A7932D0>]}
+[0m12:24:57.894097 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '59b87813-1509-4bea-81b0-8e8ce6038cda', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EE7ACF3F50>]}
+[0m12:24:57.894097 [info ] [MainThread]: Found 2 models, 12 data tests, 1 source, 447 macros
+[0m12:24:57.895657 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '59b87813-1509-4bea-81b0-8e8ce6038cda', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EE7A87EA90>]}
+[0m12:24:57.897212 [info ] [MainThread]: 
+[0m12:24:57.898722 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m12:24:57.900232 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_crime_db_staging_staging'
+[0m12:24:57.901239 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_crime_db_staging_mart'
+[0m12:24:57.911882 [debug] [ThreadPool]: Using snowflake connection "list_crime_db_staging_staging"
+[0m12:24:57.913428 [debug] [ThreadPool]: Using snowflake connection "list_crime_db_staging_mart"
+[0m12:24:57.913428 [debug] [ThreadPool]: On list_crime_db_staging_staging: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "connection_name": "list_crime_db_staging_staging"} */
+show terse objects in crime_db.staging_staging limit 10000
+[0m12:24:57.914976 [debug] [ThreadPool]: On list_crime_db_staging_mart: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "connection_name": "list_crime_db_staging_mart"} */
+show terse objects in crime_db.staging_mart limit 10000
+[0m12:24:57.915568 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m12:24:57.916084 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m12:24:58.591728 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.675 seconds
+[0m12:24:58.592746 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.677 seconds
+[0m12:24:58.594292 [debug] [ThreadPool]: On list_crime_db_staging_mart: Close
+[0m12:24:58.595841 [debug] [ThreadPool]: On list_crime_db_staging_staging: Close
+[0m12:24:58.649389 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '59b87813-1509-4bea-81b0-8e8ce6038cda', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EE7AA8CE90>]}
+[0m12:24:58.649389 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m12:24:58.650925 [info ] [MainThread]: 
+[0m12:24:58.654604 [debug] [Thread-1 (]: Began running node test.crime_analytics.no_nulls_in_coordinates
+[0m12:24:58.655120 [debug] [Thread-2 (]: Began running node test.crime_analytics.not_null_fct_police_events_event_date.d01c84b136
+[0m12:24:58.655120 [debug] [Thread-3 (]: Began running node test.crime_analytics.not_null_fct_police_events_event_id.b103e71652
+[0m12:24:58.655120 [debug] [Thread-4 (]: Began running node test.crime_analytics.not_null_fct_police_events_type.9acb038624
+[0m12:24:58.655120 [info ] [Thread-1 (]: 1 of 12 START test no_nulls_in_coordinates ..................................... [RUN]
+[0m12:24:58.656655 [info ] [Thread-2 (]: 2 of 12 START test not_null_fct_police_events_event_date ....................... [RUN]
+[0m12:24:58.656655 [info ] [Thread-3 (]: 3 of 12 START test not_null_fct_police_events_event_id ......................... [RUN]
+[0m12:24:58.656655 [info ] [Thread-4 (]: 4 of 12 START test not_null_fct_police_events_type ............................. [RUN]
+[0m12:24:58.658204 [debug] [Thread-1 (]: Acquiring new snowflake connection 'test.crime_analytics.no_nulls_in_coordinates'
+[0m12:24:58.659761 [debug] [Thread-2 (]: Acquiring new snowflake connection 'test.crime_analytics.not_null_fct_police_events_event_date.d01c84b136'
+[0m12:24:58.659761 [debug] [Thread-3 (]: Acquiring new snowflake connection 'test.crime_analytics.not_null_fct_police_events_event_id.b103e71652'
+[0m12:24:58.661305 [debug] [Thread-4 (]: Acquiring new snowflake connection 'test.crime_analytics.not_null_fct_police_events_type.9acb038624'
+[0m12:24:58.661305 [debug] [Thread-1 (]: Began compiling node test.crime_analytics.no_nulls_in_coordinates
+[0m12:24:58.661305 [debug] [Thread-2 (]: Began compiling node test.crime_analytics.not_null_fct_police_events_event_date.d01c84b136
+[0m12:24:58.662865 [debug] [Thread-3 (]: Began compiling node test.crime_analytics.not_null_fct_police_events_event_id.b103e71652
+[0m12:24:58.662865 [debug] [Thread-4 (]: Began compiling node test.crime_analytics.not_null_fct_police_events_type.9acb038624
+[0m12:24:58.671080 [debug] [Thread-1 (]: Writing injected SQL for node "test.crime_analytics.no_nulls_in_coordinates"
+[0m12:24:58.680165 [debug] [Thread-2 (]: Writing injected SQL for node "test.crime_analytics.not_null_fct_police_events_event_date.d01c84b136"
+[0m12:24:58.683198 [debug] [Thread-3 (]: Writing injected SQL for node "test.crime_analytics.not_null_fct_police_events_event_id.b103e71652"
+[0m12:24:58.687695 [debug] [Thread-4 (]: Writing injected SQL for node "test.crime_analytics.not_null_fct_police_events_type.9acb038624"
+[0m12:24:58.689210 [debug] [Thread-1 (]: Began executing node test.crime_analytics.no_nulls_in_coordinates
+[0m12:24:58.690720 [debug] [Thread-2 (]: Began executing node test.crime_analytics.not_null_fct_police_events_event_date.d01c84b136
+[0m12:24:58.700438 [debug] [Thread-3 (]: Began executing node test.crime_analytics.not_null_fct_police_events_event_id.b103e71652
+[0m12:24:58.706130 [debug] [Thread-1 (]: Writing runtime sql for node "test.crime_analytics.no_nulls_in_coordinates"
+[0m12:24:58.709157 [debug] [Thread-2 (]: Writing runtime sql for node "test.crime_analytics.not_null_fct_police_events_event_date.d01c84b136"
+[0m12:24:58.709668 [debug] [Thread-4 (]: Began executing node test.crime_analytics.not_null_fct_police_events_type.9acb038624
+[0m12:24:58.711181 [debug] [Thread-3 (]: Writing runtime sql for node "test.crime_analytics.not_null_fct_police_events_event_id.b103e71652"
+[0m12:24:58.714786 [debug] [Thread-4 (]: Writing runtime sql for node "test.crime_analytics.not_null_fct_police_events_type.9acb038624"
+[0m12:24:58.715294 [debug] [Thread-1 (]: Using snowflake connection "test.crime_analytics.no_nulls_in_coordinates"
+[0m12:24:58.716302 [debug] [Thread-2 (]: Using snowflake connection "test.crime_analytics.not_null_fct_police_events_event_date.d01c84b136"
+[0m12:24:58.716811 [debug] [Thread-3 (]: Using snowflake connection "test.crime_analytics.not_null_fct_police_events_event_id.b103e71652"
+[0m12:24:58.717831 [debug] [Thread-1 (]: On test.crime_analytics.no_nulls_in_coordinates: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "node_id": "test.crime_analytics.no_nulls_in_coordinates"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+      
+    ) dbt_internal_test
+[0m12:24:58.717831 [debug] [Thread-4 (]: Using snowflake connection "test.crime_analytics.not_null_fct_police_events_type.9acb038624"
+[0m12:24:58.717831 [debug] [Thread-2 (]: On test.crime_analytics.not_null_fct_police_events_event_date.d01c84b136: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "node_id": "test.crime_analytics.not_null_fct_police_events_event_date.d01c84b136"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select event_date
+from crime_db.staging_mart.fct_police_events
+where event_date is null
+
+
+
+      
+    ) dbt_internal_test
+[0m12:24:58.719272 [debug] [Thread-3 (]: On test.crime_analytics.not_null_fct_police_events_event_id.b103e71652: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "node_id": "test.crime_analytics.not_null_fct_police_events_event_id.b103e71652"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select event_id
+from crime_db.staging_mart.fct_police_events
+where event_id is null
+
+
+
+      
+    ) dbt_internal_test
+[0m12:24:58.719272 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m12:24:58.720309 [debug] [Thread-4 (]: On test.crime_analytics.not_null_fct_police_events_type.9acb038624: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "node_id": "test.crime_analytics.not_null_fct_police_events_type.9acb038624"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select type
+from crime_db.staging_mart.fct_police_events
+where type is null
+
+
+
+      
+    ) dbt_internal_test
+[0m12:24:58.720309 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m12:24:58.720309 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m12:24:58.722915 [debug] [Thread-4 (]: Opening a new connection, currently in state init
+[0m12:24:59.429714 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 0.709 seconds
+[0m12:24:59.436371 [debug] [Thread-2 (]: On test.crime_analytics.not_null_fct_police_events_event_date.d01c84b136: Close
+[0m12:24:59.436371 [debug] [Thread-4 (]: SQL status: SUCCESS 1 in 0.714 seconds
+[0m12:24:59.440546 [debug] [Thread-4 (]: On test.crime_analytics.not_null_fct_police_events_type.9acb038624: Close
+[0m12:24:59.487202 [info ] [Thread-2 (]: 2 of 12 PASS not_null_fct_police_events_event_date ............................. [[32mPASS[0m in 0.83s]
+[0m12:24:59.491362 [debug] [Thread-2 (]: Finished running node test.crime_analytics.not_null_fct_police_events_event_date.d01c84b136
+[0m12:24:59.492466 [info ] [Thread-4 (]: 4 of 12 PASS not_null_fct_police_events_type ................................... [[32mPASS[0m in 0.83s]
+[0m12:24:59.493171 [debug] [Thread-2 (]: Began running node test.crime_analytics.not_null_stg_police_events_event_id.eac01c3ad0
+[0m12:24:59.494176 [debug] [Thread-4 (]: Finished running node test.crime_analytics.not_null_fct_police_events_type.9acb038624
+[0m12:24:59.494680 [info ] [Thread-2 (]: 5 of 12 START test not_null_stg_police_events_event_id ......................... [RUN]
+[0m12:24:59.495803 [debug] [Thread-4 (]: Began running node test.crime_analytics.not_null_stg_police_events_name.f741cdcfa0
+[0m12:24:59.495803 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.crime_analytics.not_null_fct_police_events_event_date.d01c84b136, now test.crime_analytics.not_null_stg_police_events_event_id.eac01c3ad0)
+[0m12:24:59.496950 [info ] [Thread-4 (]: 6 of 12 START test not_null_stg_police_events_name ............................. [RUN]
+[0m12:24:59.497488 [debug] [Thread-2 (]: Began compiling node test.crime_analytics.not_null_stg_police_events_event_id.eac01c3ad0
+[0m12:24:59.498059 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly test.crime_analytics.not_null_fct_police_events_type.9acb038624, now test.crime_analytics.not_null_stg_police_events_name.f741cdcfa0)
+[0m12:24:59.502135 [debug] [Thread-2 (]: Writing injected SQL for node "test.crime_analytics.not_null_stg_police_events_event_id.eac01c3ad0"
+[0m12:24:59.503654 [debug] [Thread-4 (]: Began compiling node test.crime_analytics.not_null_stg_police_events_name.f741cdcfa0
+[0m12:24:59.508195 [debug] [Thread-4 (]: Writing injected SQL for node "test.crime_analytics.not_null_stg_police_events_name.f741cdcfa0"
+[0m12:24:59.509211 [debug] [Thread-2 (]: Began executing node test.crime_analytics.not_null_stg_police_events_event_id.eac01c3ad0
+[0m12:24:59.512789 [debug] [Thread-2 (]: Writing runtime sql for node "test.crime_analytics.not_null_stg_police_events_event_id.eac01c3ad0"
+[0m12:24:59.513295 [debug] [Thread-4 (]: Began executing node test.crime_analytics.not_null_stg_police_events_name.f741cdcfa0
+[0m12:24:59.516941 [debug] [Thread-4 (]: Writing runtime sql for node "test.crime_analytics.not_null_stg_police_events_name.f741cdcfa0"
+[0m12:24:59.516941 [debug] [Thread-2 (]: Using snowflake connection "test.crime_analytics.not_null_stg_police_events_event_id.eac01c3ad0"
+[0m12:24:59.518520 [debug] [Thread-2 (]: On test.crime_analytics.not_null_stg_police_events_event_id.eac01c3ad0: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "node_id": "test.crime_analytics.not_null_stg_police_events_event_id.eac01c3ad0"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select event_id
+from crime_db.staging_staging.stg_police_events
+where event_id is null
+
+
+
+      
+    ) dbt_internal_test
+[0m12:24:59.518520 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m12:24:59.520024 [debug] [Thread-4 (]: Using snowflake connection "test.crime_analytics.not_null_stg_police_events_name.f741cdcfa0"
+[0m12:24:59.522173 [debug] [Thread-4 (]: On test.crime_analytics.not_null_stg_police_events_name.f741cdcfa0: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "node_id": "test.crime_analytics.not_null_stg_police_events_name.f741cdcfa0"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select name
+from crime_db.staging_staging.stg_police_events
+where name is null
+
+
+
+      
+    ) dbt_internal_test
+[0m12:24:59.522701 [debug] [Thread-4 (]: Opening a new connection, currently in state closed
+[0m12:24:59.540817 [debug] [Thread-3 (]: SQL status: SUCCESS 1 in 0.820 seconds
+[0m12:24:59.543409 [debug] [Thread-3 (]: On test.crime_analytics.not_null_fct_police_events_event_id.b103e71652: Close
+[0m12:24:59.552059 [debug] [Thread-1 (]: Snowflake adapter: Snowflake query id: 01c1d5ac-0000-0544-0000-132d00011786
+[0m12:24:59.553062 [debug] [Thread-1 (]: Snowflake adapter: Snowflake error: 001003 (42000): SQL compilation error:
+syntax error line 8 at position 4 unexpected ')'.
+[0m12:24:59.553565 [debug] [Thread-1 (]: On test.crime_analytics.no_nulls_in_coordinates: Close
+[0m12:24:59.606742 [info ] [Thread-3 (]: 3 of 12 PASS not_null_fct_police_events_event_id ............................... [[32mPASS[0m in 0.95s]
+[0m12:24:59.608292 [debug] [Thread-3 (]: Finished running node test.crime_analytics.not_null_fct_police_events_event_id.b103e71652
+[0m12:24:59.608292 [debug] [Thread-3 (]: Began running node test.crime_analytics.not_null_stg_police_events_type.b798cef749
+[0m12:24:59.609837 [info ] [Thread-3 (]: 7 of 12 START test not_null_stg_police_events_type ............................. [RUN]
+[0m12:24:59.609837 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly test.crime_analytics.not_null_fct_police_events_event_id.b103e71652, now test.crime_analytics.not_null_stg_police_events_type.b798cef749)
+[0m12:24:59.611384 [debug] [Thread-1 (]: Database Error in test no_nulls_in_coordinates (tests\no_nulls_in_coordinates.sql)
+  001003 (42000): SQL compilation error:
+  syntax error line 8 at position 4 unexpected ')'.
+  compiled Code at target\run\crime_analytics\tests\no_nulls_in_coordinates.sql
+[0m12:24:59.611384 [debug] [Thread-3 (]: Began compiling node test.crime_analytics.not_null_stg_police_events_type.b798cef749
+[0m12:24:59.612922 [error] [Thread-1 (]: 1 of 12 ERROR no_nulls_in_coordinates .......................................... [[31mERROR[0m in 0.95s]
+[0m12:24:59.619112 [debug] [Thread-3 (]: Writing injected SQL for node "test.crime_analytics.not_null_stg_police_events_type.b798cef749"
+[0m12:24:59.619112 [debug] [Thread-1 (]: Finished running node test.crime_analytics.no_nulls_in_coordinates
+[0m12:24:59.621267 [debug] [Thread-1 (]: Began running node test.crime_analytics.source_not_null_crime_police_events_staging_event_id.8de2e4fd94
+[0m12:24:59.621782 [debug] [Thread-3 (]: Began executing node test.crime_analytics.not_null_stg_police_events_type.b798cef749
+[0m12:24:59.621782 [info ] [Thread-1 (]: 8 of 12 START test source_not_null_crime_police_events_staging_event_id ........ [RUN]
+[0m12:24:59.626394 [debug] [Thread-3 (]: Writing runtime sql for node "test.crime_analytics.not_null_stg_police_events_type.b798cef749"
+[0m12:24:59.627440 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.crime_analytics.no_nulls_in_coordinates, now test.crime_analytics.source_not_null_crime_police_events_staging_event_id.8de2e4fd94)
+[0m12:24:59.628445 [debug] [Thread-1 (]: Began compiling node test.crime_analytics.source_not_null_crime_police_events_staging_event_id.8de2e4fd94
+[0m12:24:59.631965 [debug] [Thread-1 (]: Writing injected SQL for node "test.crime_analytics.source_not_null_crime_police_events_staging_event_id.8de2e4fd94"
+[0m12:24:59.632993 [debug] [Thread-3 (]: Using snowflake connection "test.crime_analytics.not_null_stg_police_events_type.b798cef749"
+[0m12:24:59.633505 [debug] [Thread-3 (]: On test.crime_analytics.not_null_stg_police_events_type.b798cef749: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "node_id": "test.crime_analytics.not_null_stg_police_events_type.b798cef749"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select type
+from crime_db.staging_staging.stg_police_events
+where type is null
+
+
+
+      
+    ) dbt_internal_test
+[0m12:24:59.633505 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m12:24:59.634509 [debug] [Thread-1 (]: Began executing node test.crime_analytics.source_not_null_crime_police_events_staging_event_id.8de2e4fd94
+[0m12:24:59.637617 [debug] [Thread-1 (]: Writing runtime sql for node "test.crime_analytics.source_not_null_crime_police_events_staging_event_id.8de2e4fd94"
+[0m12:24:59.640700 [debug] [Thread-1 (]: Using snowflake connection "test.crime_analytics.source_not_null_crime_police_events_staging_event_id.8de2e4fd94"
+[0m12:24:59.640700 [debug] [Thread-1 (]: On test.crime_analytics.source_not_null_crime_police_events_staging_event_id.8de2e4fd94: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "node_id": "test.crime_analytics.source_not_null_crime_police_events_staging_event_id.8de2e4fd94"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select event_id
+from crime_db.PUBLIC.police_events_staging
+where event_id is null
+
+
+
+      
+    ) dbt_internal_test
+[0m12:24:59.640700 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m12:25:00.169287 [debug] [Thread-4 (]: SQL status: SUCCESS 1 in 0.646 seconds
+[0m12:25:00.171315 [debug] [Thread-4 (]: On test.crime_analytics.not_null_stg_police_events_name.f741cdcfa0: Close
+[0m12:25:00.190583 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 0.672 seconds
+[0m12:25:00.194624 [debug] [Thread-2 (]: On test.crime_analytics.not_null_stg_police_events_event_id.eac01c3ad0: Close
+[0m12:25:00.223060 [info ] [Thread-4 (]: 6 of 12 PASS not_null_stg_police_events_name ................................... [[32mPASS[0m in 0.73s]
+[0m12:25:00.224066 [debug] [Thread-4 (]: Finished running node test.crime_analytics.not_null_stg_police_events_name.f741cdcfa0
+[0m12:25:00.224570 [debug] [Thread-4 (]: Began running node test.crime_analytics.source_not_null_crime_police_events_staging_name.d4be1df720
+[0m12:25:00.225582 [info ] [Thread-4 (]: 9 of 12 START test source_not_null_crime_police_events_staging_name ............ [RUN]
+[0m12:25:00.226089 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly test.crime_analytics.not_null_stg_police_events_name.f741cdcfa0, now test.crime_analytics.source_not_null_crime_police_events_staging_name.d4be1df720)
+[0m12:25:00.226089 [debug] [Thread-4 (]: Began compiling node test.crime_analytics.source_not_null_crime_police_events_staging_name.d4be1df720
+[0m12:25:00.232127 [debug] [Thread-4 (]: Writing injected SQL for node "test.crime_analytics.source_not_null_crime_police_events_staging_name.d4be1df720"
+[0m12:25:00.233140 [debug] [Thread-4 (]: Began executing node test.crime_analytics.source_not_null_crime_police_events_staging_name.d4be1df720
+[0m12:25:00.235724 [debug] [Thread-4 (]: Writing runtime sql for node "test.crime_analytics.source_not_null_crime_police_events_staging_name.d4be1df720"
+[0m12:25:00.235724 [debug] [Thread-4 (]: Using snowflake connection "test.crime_analytics.source_not_null_crime_police_events_staging_name.d4be1df720"
+[0m12:25:00.237276 [debug] [Thread-4 (]: On test.crime_analytics.source_not_null_crime_police_events_staging_name.d4be1df720: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "node_id": "test.crime_analytics.source_not_null_crime_police_events_staging_name.d4be1df720"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select name
+from crime_db.PUBLIC.police_events_staging
+where name is null
+
+
+
+      
+    ) dbt_internal_test
+[0m12:25:00.237276 [debug] [Thread-4 (]: Opening a new connection, currently in state closed
+[0m12:25:00.241936 [info ] [Thread-2 (]: 5 of 12 PASS not_null_stg_police_events_event_id ............................... [[32mPASS[0m in 0.75s]
+[0m12:25:00.243477 [debug] [Thread-2 (]: Finished running node test.crime_analytics.not_null_stg_police_events_event_id.eac01c3ad0
+[0m12:25:00.243477 [debug] [Thread-2 (]: Began running node test.crime_analytics.source_unique_crime_police_events_staging_event_id.5986b040f5
+[0m12:25:00.246070 [info ] [Thread-2 (]: 10 of 12 START test source_unique_crime_police_events_staging_event_id ......... [RUN]
+[0m12:25:00.247615 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.crime_analytics.not_null_stg_police_events_event_id.eac01c3ad0, now test.crime_analytics.source_unique_crime_police_events_staging_event_id.5986b040f5)
+[0m12:25:00.248717 [debug] [Thread-2 (]: Began compiling node test.crime_analytics.source_unique_crime_police_events_staging_event_id.5986b040f5
+[0m12:25:00.253976 [debug] [Thread-2 (]: Writing injected SQL for node "test.crime_analytics.source_unique_crime_police_events_staging_event_id.5986b040f5"
+[0m12:25:00.257703 [debug] [Thread-2 (]: Began executing node test.crime_analytics.source_unique_crime_police_events_staging_event_id.5986b040f5
+[0m12:25:00.259729 [debug] [Thread-2 (]: Writing runtime sql for node "test.crime_analytics.source_unique_crime_police_events_staging_event_id.5986b040f5"
+[0m12:25:00.261241 [debug] [Thread-2 (]: Using snowflake connection "test.crime_analytics.source_unique_crime_police_events_staging_event_id.5986b040f5"
+[0m12:25:00.261241 [debug] [Thread-2 (]: On test.crime_analytics.source_unique_crime_police_events_staging_event_id.5986b040f5: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "node_id": "test.crime_analytics.source_unique_crime_police_events_staging_event_id.5986b040f5"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+select
+    event_id as unique_field,
+    count(*) as n_records
+
+from crime_db.PUBLIC.police_events_staging
+where event_id is not null
+group by event_id
+having count(*) > 1
+
+
+
+      
+    ) dbt_internal_test
+[0m12:25:00.262247 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m12:25:00.304972 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.663 seconds
+[0m12:25:00.305976 [debug] [Thread-1 (]: On test.crime_analytics.source_not_null_crime_police_events_staging_event_id.8de2e4fd94: Close
+[0m12:25:00.312188 [debug] [Thread-3 (]: SQL status: SUCCESS 1 in 0.678 seconds
+[0m12:25:00.313699 [debug] [Thread-3 (]: On test.crime_analytics.not_null_stg_police_events_type.b798cef749: Close
+[0m12:25:00.353495 [info ] [Thread-1 (]: 8 of 12 PASS source_not_null_crime_police_events_staging_event_id .............. [[32mPASS[0m in 0.73s]
+[0m12:25:00.353999 [debug] [Thread-1 (]: Finished running node test.crime_analytics.source_not_null_crime_police_events_staging_event_id.8de2e4fd94
+[0m12:25:00.355011 [debug] [Thread-1 (]: Began running node test.crime_analytics.unique_fct_police_events_event_id.9a2d51bb05
+[0m12:25:00.355523 [info ] [Thread-1 (]: 11 of 12 START test unique_fct_police_events_event_id .......................... [RUN]
+[0m12:25:00.356036 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.crime_analytics.source_not_null_crime_police_events_staging_event_id.8de2e4fd94, now test.crime_analytics.unique_fct_police_events_event_id.9a2d51bb05)
+[0m12:25:00.356547 [debug] [Thread-1 (]: Began compiling node test.crime_analytics.unique_fct_police_events_event_id.9a2d51bb05
+[0m12:25:00.359569 [debug] [Thread-1 (]: Writing injected SQL for node "test.crime_analytics.unique_fct_police_events_event_id.9a2d51bb05"
+[0m12:25:00.361181 [debug] [Thread-1 (]: Began executing node test.crime_analytics.unique_fct_police_events_event_id.9a2d51bb05
+[0m12:25:00.364262 [debug] [Thread-1 (]: Writing runtime sql for node "test.crime_analytics.unique_fct_police_events_event_id.9a2d51bb05"
+[0m12:25:00.364262 [info ] [Thread-3 (]: 7 of 12 PASS not_null_stg_police_events_type ................................... [[32mPASS[0m in 0.75s]
+[0m12:25:00.365822 [debug] [Thread-3 (]: Finished running node test.crime_analytics.not_null_stg_police_events_type.b798cef749
+[0m12:25:00.366380 [debug] [Thread-3 (]: Began running node test.crime_analytics.unique_stg_police_events_event_id.ca71ac4aa0
+[0m12:25:00.366898 [debug] [Thread-1 (]: Using snowflake connection "test.crime_analytics.unique_fct_police_events_event_id.9a2d51bb05"
+[0m12:25:00.366898 [info ] [Thread-3 (]: 12 of 12 START test unique_stg_police_events_event_id .......................... [RUN]
+[0m12:25:00.366898 [debug] [Thread-1 (]: On test.crime_analytics.unique_fct_police_events_event_id.9a2d51bb05: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "node_id": "test.crime_analytics.unique_fct_police_events_event_id.9a2d51bb05"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+select
+    event_id as unique_field,
+    count(*) as n_records
+
+from crime_db.staging_mart.fct_police_events
+where event_id is not null
+group by event_id
+having count(*) > 1
+
+
+
+      
+    ) dbt_internal_test
+[0m12:25:00.368691 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly test.crime_analytics.not_null_stg_police_events_type.b798cef749, now test.crime_analytics.unique_stg_police_events_event_id.ca71ac4aa0)
+[0m12:25:00.368691 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m12:25:00.368691 [debug] [Thread-3 (]: Began compiling node test.crime_analytics.unique_stg_police_events_event_id.ca71ac4aa0
+[0m12:25:00.374485 [debug] [Thread-3 (]: Writing injected SQL for node "test.crime_analytics.unique_stg_police_events_event_id.ca71ac4aa0"
+[0m12:25:00.377103 [debug] [Thread-3 (]: Began executing node test.crime_analytics.unique_stg_police_events_event_id.ca71ac4aa0
+[0m12:25:00.378654 [debug] [Thread-3 (]: Writing runtime sql for node "test.crime_analytics.unique_stg_police_events_event_id.ca71ac4aa0"
+[0m12:25:00.381265 [debug] [Thread-3 (]: Using snowflake connection "test.crime_analytics.unique_stg_police_events_event_id.ca71ac4aa0"
+[0m12:25:00.381265 [debug] [Thread-3 (]: On test.crime_analytics.unique_stg_police_events_event_id.ca71ac4aa0: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "node_id": "test.crime_analytics.unique_stg_police_events_event_id.ca71ac4aa0"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+select
+    event_id as unique_field,
+    count(*) as n_records
+
+from crime_db.staging_staging.stg_police_events
+where event_id is not null
+group by event_id
+having count(*) > 1
+
+
+
+      
+    ) dbt_internal_test
+[0m12:25:00.382819 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m12:25:00.899845 [debug] [Thread-4 (]: SQL status: SUCCESS 1 in 0.662 seconds
+[0m12:25:00.901389 [debug] [Thread-4 (]: On test.crime_analytics.source_not_null_crime_police_events_staging_name.d4be1df720: Close
+[0m12:25:00.950722 [info ] [Thread-4 (]: 9 of 12 PASS source_not_null_crime_police_events_staging_name .................. [[32mPASS[0m in 0.72s]
+[0m12:25:00.951728 [debug] [Thread-4 (]: Finished running node test.crime_analytics.source_not_null_crime_police_events_staging_name.d4be1df720
+[0m12:25:00.989150 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 0.727 seconds
+[0m12:25:00.991663 [debug] [Thread-2 (]: On test.crime_analytics.source_unique_crime_police_events_staging_event_id.5986b040f5: Close
+[0m12:25:01.039129 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.670 seconds
+[0m12:25:01.042242 [debug] [Thread-1 (]: On test.crime_analytics.unique_fct_police_events_event_id.9a2d51bb05: Close
+[0m12:25:01.044968 [debug] [Thread-3 (]: SQL status: SUCCESS 1 in 0.663 seconds
+[0m12:25:01.047657 [debug] [Thread-3 (]: On test.crime_analytics.unique_stg_police_events_event_id.ca71ac4aa0: Close
+[0m12:25:01.098474 [info ] [Thread-3 (]: 12 of 12 PASS unique_stg_police_events_event_id ................................ [[32mPASS[0m in 0.73s]
+[0m12:25:01.099033 [info ] [Thread-2 (]: 10 of 12 PASS source_unique_crime_police_events_staging_event_id ............... [[32mPASS[0m in 0.85s]
+[0m12:25:01.099548 [info ] [Thread-1 (]: 11 of 12 PASS unique_fct_police_events_event_id ................................ [[32mPASS[0m in 0.74s]
+[0m12:25:01.099548 [debug] [Thread-3 (]: Finished running node test.crime_analytics.unique_stg_police_events_event_id.ca71ac4aa0
+[0m12:25:01.101076 [debug] [Thread-2 (]: Finished running node test.crime_analytics.source_unique_crime_police_events_staging_event_id.5986b040f5
+[0m12:25:01.101076 [debug] [Thread-1 (]: Finished running node test.crime_analytics.unique_fct_police_events_event_id.9a2d51bb05
+[0m12:25:01.102619 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m12:25:01.104162 [debug] [MainThread]: Connection 'list_crime_db_staging_staging' was properly closed.
+[0m12:25:01.104162 [debug] [MainThread]: Connection 'list_crime_db_staging_mart' was properly closed.
+[0m12:25:01.104162 [debug] [MainThread]: Connection 'test.crime_analytics.unique_fct_police_events_event_id.9a2d51bb05' was properly closed.
+[0m12:25:01.105707 [debug] [MainThread]: Connection 'test.crime_analytics.source_unique_crime_police_events_staging_event_id.5986b040f5' was properly closed.
+[0m12:25:01.105707 [debug] [MainThread]: Connection 'test.crime_analytics.unique_stg_police_events_event_id.ca71ac4aa0' was properly closed.
+[0m12:25:01.105707 [debug] [MainThread]: Connection 'test.crime_analytics.source_not_null_crime_police_events_staging_name.d4be1df720' was properly closed.
+[0m12:25:01.107235 [info ] [MainThread]: 
+[0m12:25:01.107839 [info ] [MainThread]: Finished running 12 data tests in 0 hours 0 minutes and 3.21 seconds (3.21s).
+[0m12:25:01.109407 [debug] [MainThread]: Command end result
+[0m12:25:01.136916 [info ] [MainThread]: 
+[0m12:25:01.136916 [info ] [MainThread]: [31mCompleted with 1 error and 0 warnings:[0m
+[0m12:25:01.138507 [info ] [MainThread]: 
+[0m12:25:01.139133 [error] [MainThread]:   Database Error in test no_nulls_in_coordinates (tests\no_nulls_in_coordinates.sql)
+  001003 (42000): SQL compilation error:
+  syntax error line 8 at position 4 unexpected ')'.
+  compiled Code at target\run\crime_analytics\tests\no_nulls_in_coordinates.sql
+[0m12:25:01.139657 [info ] [MainThread]: 
+[0m12:25:01.140171 [info ] [MainThread]: Done. PASS=11 WARN=0 ERROR=1 SKIP=0 TOTAL=12
+[0m12:25:01.141694 [debug] [MainThread]: Command `dbt test` failed at 12:25:01.141694 after 5.14 seconds
+[0m12:25:01.142198 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EE608E3150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EE59BDDA10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EE59BDD9D0>]}
+[0m12:25:01.142198 [debug] [MainThread]: Flushing usage events
+[0m12:25:17.090369 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012320C27210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000123209FD110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012320C24A90>]}
+
+
+============================== 12:25:17.093389 | 9f0559db-85c2-4995-bd2b-646c1b209833 ==============================
+[0m12:25:17.093389 [info ] [MainThread]: Running with dbt=1.8.0
+[0m12:25:17.094930 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'C:\\DE23\\Crime\\logs', 'fail_fast': 'False', 'profiles_dir': '.', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt test --profiles-dir .', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m12:25:18.111504 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+The `data-paths` config has been renamed to `seed-paths`. Please update your
+`dbt_project.yml` configuration to reflect this change.
+[0m12:25:18.113538 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': '9f0559db-85c2-4995-bd2b-646c1b209833', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012338B3C4D0>]}
+[0m12:25:18.323509 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '9f0559db-85c2-4995-bd2b-646c1b209833', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001233864C650>]}
+[0m12:25:18.372874 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '9f0559db-85c2-4995-bd2b-646c1b209833', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000123202335D0>]}
+[0m12:25:18.373894 [info ] [MainThread]: Registered adapter: snowflake=1.8.0
+[0m12:25:18.381542 [debug] [MainThread]: checksum: dbb12d416fdb55e3665e4828703bbedf40c5c90ed7ca6ff39bbbfb29b12b0a92, vars: {}, profile: , target: , version: 1.8.0
+[0m12:25:18.613539 [debug] [MainThread]: Partial parsing enabled: 1 files deleted, 0 files added, 0 files changed.
+[0m12:25:18.615095 [debug] [MainThread]: Partial parsing: deleted file: crime_analytics://tests\no_nulls_in_coordinates.sql
+[0m12:25:18.668819 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- seeds.crime_analytics
+[0m12:25:18.677227 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '9f0559db-85c2-4995-bd2b-646c1b209833', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001233864C650>]}
+[0m12:25:18.773678 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '9f0559db-85c2-4995-bd2b-646c1b209833', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001233AFBBE90>]}
+[0m12:25:18.774200 [info ] [MainThread]: Found 2 models, 11 data tests, 1 source, 447 macros
+[0m12:25:18.774200 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '9f0559db-85c2-4995-bd2b-646c1b209833', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001233AF91F90>]}
+[0m12:25:18.776957 [info ] [MainThread]: 
+[0m12:25:18.776957 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m12:25:18.778500 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_crime_db_staging_mart'
+[0m12:25:18.780047 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_crime_db_staging_staging'
+[0m12:25:18.791889 [debug] [ThreadPool]: Using snowflake connection "list_crime_db_staging_mart"
+[0m12:25:18.794406 [debug] [ThreadPool]: Using snowflake connection "list_crime_db_staging_staging"
+[0m12:25:18.794406 [debug] [ThreadPool]: On list_crime_db_staging_mart: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "connection_name": "list_crime_db_staging_mart"} */
+show terse objects in crime_db.staging_mart limit 10000
+[0m12:25:18.796326 [debug] [ThreadPool]: On list_crime_db_staging_staging: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "connection_name": "list_crime_db_staging_staging"} */
+show terse objects in crime_db.staging_staging limit 10000
+[0m12:25:18.796326 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m12:25:18.796326 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m12:25:19.491876 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.696 seconds
+[0m12:25:19.494108 [debug] [ThreadPool]: On list_crime_db_staging_staging: Close
+[0m12:25:19.541977 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.745 seconds
+[0m12:25:19.543519 [debug] [ThreadPool]: On list_crime_db_staging_mart: Close
+[0m12:25:19.645760 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '9f0559db-85c2-4995-bd2b-646c1b209833', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001233ABA6D90>]}
+[0m12:25:19.647536 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m12:25:19.647536 [info ] [MainThread]: 
+[0m12:25:19.652184 [debug] [Thread-1 (]: Began running node test.crime_analytics.not_null_fct_police_events_event_date.d01c84b136
+[0m12:25:19.652184 [debug] [Thread-2 (]: Began running node test.crime_analytics.not_null_fct_police_events_event_id.b103e71652
+[0m12:25:19.652184 [debug] [Thread-3 (]: Began running node test.crime_analytics.not_null_fct_police_events_type.9acb038624
+[0m12:25:19.652184 [debug] [Thread-4 (]: Began running node test.crime_analytics.not_null_stg_police_events_event_id.eac01c3ad0
+[0m12:25:19.653723 [info ] [Thread-1 (]: 1 of 11 START test not_null_fct_police_events_event_date ....................... [RUN]
+[0m12:25:19.653723 [info ] [Thread-2 (]: 2 of 11 START test not_null_fct_police_events_event_id ......................... [RUN]
+[0m12:25:19.655279 [info ] [Thread-3 (]: 3 of 11 START test not_null_fct_police_events_type ............................. [RUN]
+[0m12:25:19.655279 [info ] [Thread-4 (]: 4 of 11 START test not_null_stg_police_events_event_id ......................... [RUN]
+[0m12:25:19.656747 [debug] [Thread-1 (]: Acquiring new snowflake connection 'test.crime_analytics.not_null_fct_police_events_event_date.d01c84b136'
+[0m12:25:19.656747 [debug] [Thread-2 (]: Acquiring new snowflake connection 'test.crime_analytics.not_null_fct_police_events_event_id.b103e71652'
+[0m12:25:19.656747 [debug] [Thread-3 (]: Acquiring new snowflake connection 'test.crime_analytics.not_null_fct_police_events_type.9acb038624'
+[0m12:25:19.658196 [debug] [Thread-4 (]: Acquiring new snowflake connection 'test.crime_analytics.not_null_stg_police_events_event_id.eac01c3ad0'
+[0m12:25:19.658869 [debug] [Thread-1 (]: Began compiling node test.crime_analytics.not_null_fct_police_events_event_date.d01c84b136
+[0m12:25:19.659888 [debug] [Thread-2 (]: Began compiling node test.crime_analytics.not_null_fct_police_events_event_id.b103e71652
+[0m12:25:19.660415 [debug] [Thread-3 (]: Began compiling node test.crime_analytics.not_null_fct_police_events_type.9acb038624
+[0m12:25:19.660946 [debug] [Thread-4 (]: Began compiling node test.crime_analytics.not_null_stg_police_events_event_id.eac01c3ad0
+[0m12:25:19.673393 [debug] [Thread-1 (]: Writing injected SQL for node "test.crime_analytics.not_null_fct_police_events_event_date.d01c84b136"
+[0m12:25:19.676928 [debug] [Thread-2 (]: Writing injected SQL for node "test.crime_analytics.not_null_fct_police_events_event_id.b103e71652"
+[0m12:25:19.681048 [debug] [Thread-3 (]: Writing injected SQL for node "test.crime_analytics.not_null_fct_police_events_type.9acb038624"
+[0m12:25:19.684135 [debug] [Thread-4 (]: Writing injected SQL for node "test.crime_analytics.not_null_stg_police_events_event_id.eac01c3ad0"
+[0m12:25:19.685669 [debug] [Thread-1 (]: Began executing node test.crime_analytics.not_null_fct_police_events_event_date.d01c84b136
+[0m12:25:19.685669 [debug] [Thread-2 (]: Began executing node test.crime_analytics.not_null_fct_police_events_event_id.b103e71652
+[0m12:25:19.685669 [debug] [Thread-3 (]: Began executing node test.crime_analytics.not_null_fct_police_events_type.9acb038624
+[0m12:25:19.700573 [debug] [Thread-1 (]: Writing runtime sql for node "test.crime_analytics.not_null_fct_police_events_event_date.d01c84b136"
+[0m12:25:19.701578 [debug] [Thread-4 (]: Began executing node test.crime_analytics.not_null_stg_police_events_event_id.eac01c3ad0
+[0m12:25:19.703594 [debug] [Thread-2 (]: Writing runtime sql for node "test.crime_analytics.not_null_fct_police_events_event_id.b103e71652"
+[0m12:25:19.705657 [debug] [Thread-3 (]: Writing runtime sql for node "test.crime_analytics.not_null_fct_police_events_type.9acb038624"
+[0m12:25:19.709867 [debug] [Thread-4 (]: Writing runtime sql for node "test.crime_analytics.not_null_stg_police_events_event_id.eac01c3ad0"
+[0m12:25:19.709867 [debug] [Thread-1 (]: Using snowflake connection "test.crime_analytics.not_null_fct_police_events_event_date.d01c84b136"
+[0m12:25:19.711433 [debug] [Thread-2 (]: Using snowflake connection "test.crime_analytics.not_null_fct_police_events_event_id.b103e71652"
+[0m12:25:19.711433 [debug] [Thread-1 (]: On test.crime_analytics.not_null_fct_police_events_event_date.d01c84b136: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "node_id": "test.crime_analytics.not_null_fct_police_events_event_date.d01c84b136"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select event_date
+from crime_db.staging_mart.fct_police_events
+where event_date is null
+
+
+
+      
+    ) dbt_internal_test
+[0m12:25:19.712987 [debug] [Thread-3 (]: Using snowflake connection "test.crime_analytics.not_null_fct_police_events_type.9acb038624"
+[0m12:25:19.712987 [debug] [Thread-4 (]: Using snowflake connection "test.crime_analytics.not_null_stg_police_events_event_id.eac01c3ad0"
+[0m12:25:19.712987 [debug] [Thread-2 (]: On test.crime_analytics.not_null_fct_police_events_event_id.b103e71652: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "node_id": "test.crime_analytics.not_null_fct_police_events_event_id.b103e71652"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select event_id
+from crime_db.staging_mart.fct_police_events
+where event_id is null
+
+
+
+      
+    ) dbt_internal_test
+[0m12:25:19.714523 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m12:25:19.715627 [debug] [Thread-3 (]: On test.crime_analytics.not_null_fct_police_events_type.9acb038624: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "node_id": "test.crime_analytics.not_null_fct_police_events_type.9acb038624"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select type
+from crime_db.staging_mart.fct_police_events
+where type is null
+
+
+
+      
+    ) dbt_internal_test
+[0m12:25:19.715627 [debug] [Thread-4 (]: On test.crime_analytics.not_null_stg_police_events_event_id.eac01c3ad0: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "node_id": "test.crime_analytics.not_null_stg_police_events_event_id.eac01c3ad0"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select event_id
+from crime_db.staging_staging.stg_police_events
+where event_id is null
+
+
+
+      
+    ) dbt_internal_test
+[0m12:25:19.715627 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m12:25:19.718716 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m12:25:19.718716 [debug] [Thread-4 (]: Opening a new connection, currently in state init
+[0m12:25:20.522631 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 0.807 seconds
+[0m12:25:20.530252 [debug] [Thread-2 (]: On test.crime_analytics.not_null_fct_police_events_event_id.b103e71652: Close
+[0m12:25:20.555239 [debug] [Thread-4 (]: SQL status: SUCCESS 1 in 0.836 seconds
+[0m12:25:20.557262 [debug] [Thread-4 (]: On test.crime_analytics.not_null_stg_police_events_event_id.eac01c3ad0: Close
+[0m12:25:20.569367 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.855 seconds
+[0m12:25:20.570908 [debug] [Thread-1 (]: On test.crime_analytics.not_null_fct_police_events_event_date.d01c84b136: Close
+[0m12:25:20.597486 [debug] [Thread-3 (]: SQL status: SUCCESS 1 in 0.879 seconds
+[0m12:25:20.600012 [debug] [Thread-3 (]: On test.crime_analytics.not_null_fct_police_events_type.9acb038624: Close
+[0m12:25:20.604621 [info ] [Thread-4 (]: 4 of 11 PASS not_null_stg_police_events_event_id ............................... [[32mPASS[0m in 0.95s]
+[0m12:25:20.604621 [debug] [Thread-4 (]: Finished running node test.crime_analytics.not_null_stg_police_events_event_id.eac01c3ad0
+[0m12:25:20.606156 [debug] [Thread-4 (]: Began running node test.crime_analytics.not_null_stg_police_events_name.f741cdcfa0
+[0m12:25:20.606156 [info ] [Thread-4 (]: 5 of 11 START test not_null_stg_police_events_name ............................. [RUN]
+[0m12:25:20.606156 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly test.crime_analytics.not_null_stg_police_events_event_id.eac01c3ad0, now test.crime_analytics.not_null_stg_police_events_name.f741cdcfa0)
+[0m12:25:20.607699 [debug] [Thread-4 (]: Began compiling node test.crime_analytics.not_null_stg_police_events_name.f741cdcfa0
+[0m12:25:20.610794 [debug] [Thread-4 (]: Writing injected SQL for node "test.crime_analytics.not_null_stg_police_events_name.f741cdcfa0"
+[0m12:25:20.612232 [debug] [Thread-4 (]: Began executing node test.crime_analytics.not_null_stg_police_events_name.f741cdcfa0
+[0m12:25:20.615576 [debug] [Thread-4 (]: Writing runtime sql for node "test.crime_analytics.not_null_stg_police_events_name.f741cdcfa0"
+[0m12:25:20.616583 [debug] [Thread-4 (]: Using snowflake connection "test.crime_analytics.not_null_stg_police_events_name.f741cdcfa0"
+[0m12:25:20.618207 [info ] [Thread-1 (]: 1 of 11 PASS not_null_fct_police_events_event_date ............................. [[32mPASS[0m in 0.96s]
+[0m12:25:20.618207 [debug] [Thread-4 (]: On test.crime_analytics.not_null_stg_police_events_name.f741cdcfa0: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "node_id": "test.crime_analytics.not_null_stg_police_events_name.f741cdcfa0"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select name
+from crime_db.staging_staging.stg_police_events
+where name is null
+
+
+
+      
+    ) dbt_internal_test
+[0m12:25:20.621270 [debug] [Thread-1 (]: Finished running node test.crime_analytics.not_null_fct_police_events_event_date.d01c84b136
+[0m12:25:20.621270 [debug] [Thread-4 (]: Opening a new connection, currently in state closed
+[0m12:25:20.622827 [debug] [Thread-1 (]: Began running node test.crime_analytics.not_null_stg_police_events_type.b798cef749
+[0m12:25:20.624381 [info ] [Thread-1 (]: 6 of 11 START test not_null_stg_police_events_type ............................. [RUN]
+[0m12:25:20.625927 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.crime_analytics.not_null_fct_police_events_event_date.d01c84b136, now test.crime_analytics.not_null_stg_police_events_type.b798cef749)
+[0m12:25:20.626975 [debug] [Thread-1 (]: Began compiling node test.crime_analytics.not_null_stg_police_events_type.b798cef749
+[0m12:25:20.631174 [debug] [Thread-1 (]: Writing injected SQL for node "test.crime_analytics.not_null_stg_police_events_type.b798cef749"
+[0m12:25:20.632733 [debug] [Thread-1 (]: Began executing node test.crime_analytics.not_null_stg_police_events_type.b798cef749
+[0m12:25:20.634127 [debug] [Thread-1 (]: Writing runtime sql for node "test.crime_analytics.not_null_stg_police_events_type.b798cef749"
+[0m12:25:20.635669 [debug] [Thread-1 (]: Using snowflake connection "test.crime_analytics.not_null_stg_police_events_type.b798cef749"
+[0m12:25:20.637216 [debug] [Thread-1 (]: On test.crime_analytics.not_null_stg_police_events_type.b798cef749: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "node_id": "test.crime_analytics.not_null_stg_police_events_type.b798cef749"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select type
+from crime_db.staging_staging.stg_police_events
+where type is null
+
+
+
+      
+    ) dbt_internal_test
+[0m12:25:20.637216 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m12:25:20.641836 [info ] [Thread-2 (]: 2 of 11 PASS not_null_fct_police_events_event_id ............................... [[32mPASS[0m in 0.99s]
+[0m12:25:20.643375 [debug] [Thread-2 (]: Finished running node test.crime_analytics.not_null_fct_police_events_event_id.b103e71652
+[0m12:25:20.643375 [debug] [Thread-2 (]: Began running node test.crime_analytics.source_not_null_crime_police_events_staging_event_id.8de2e4fd94
+[0m12:25:20.644917 [info ] [Thread-2 (]: 7 of 11 START test source_not_null_crime_police_events_staging_event_id ........ [RUN]
+[0m12:25:20.645555 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.crime_analytics.not_null_fct_police_events_event_id.b103e71652, now test.crime_analytics.source_not_null_crime_police_events_staging_event_id.8de2e4fd94)
+[0m12:25:20.646067 [debug] [Thread-2 (]: Began compiling node test.crime_analytics.source_not_null_crime_police_events_staging_event_id.8de2e4fd94
+[0m12:25:20.650123 [debug] [Thread-2 (]: Writing injected SQL for node "test.crime_analytics.source_not_null_crime_police_events_staging_event_id.8de2e4fd94"
+[0m12:25:20.651697 [debug] [Thread-2 (]: Began executing node test.crime_analytics.source_not_null_crime_police_events_staging_event_id.8de2e4fd94
+[0m12:25:20.655762 [debug] [Thread-2 (]: Writing runtime sql for node "test.crime_analytics.source_not_null_crime_police_events_staging_event_id.8de2e4fd94"
+[0m12:25:20.652723 [info ] [Thread-3 (]: 3 of 11 PASS not_null_fct_police_events_type ................................... [[32mPASS[0m in 1.00s]
+[0m12:25:20.657811 [debug] [Thread-3 (]: Finished running node test.crime_analytics.not_null_fct_police_events_type.9acb038624
+[0m12:25:20.658818 [debug] [Thread-2 (]: Using snowflake connection "test.crime_analytics.source_not_null_crime_police_events_staging_event_id.8de2e4fd94"
+[0m12:25:20.659324 [debug] [Thread-3 (]: Began running node test.crime_analytics.source_not_null_crime_police_events_staging_name.d4be1df720
+[0m12:25:20.659324 [debug] [Thread-2 (]: On test.crime_analytics.source_not_null_crime_police_events_staging_event_id.8de2e4fd94: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "node_id": "test.crime_analytics.source_not_null_crime_police_events_staging_event_id.8de2e4fd94"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select event_id
+from crime_db.PUBLIC.police_events_staging
+where event_id is null
+
+
+
+      
+    ) dbt_internal_test
+[0m12:25:20.660914 [info ] [Thread-3 (]: 8 of 11 START test source_not_null_crime_police_events_staging_name ............ [RUN]
+[0m12:25:20.660914 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m12:25:20.661931 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly test.crime_analytics.not_null_fct_police_events_type.9acb038624, now test.crime_analytics.source_not_null_crime_police_events_staging_name.d4be1df720)
+[0m12:25:20.665040 [debug] [Thread-3 (]: Began compiling node test.crime_analytics.source_not_null_crime_police_events_staging_name.d4be1df720
+[0m12:25:20.669698 [debug] [Thread-3 (]: Writing injected SQL for node "test.crime_analytics.source_not_null_crime_police_events_staging_name.d4be1df720"
+[0m12:25:20.669698 [debug] [Thread-3 (]: Began executing node test.crime_analytics.source_not_null_crime_police_events_staging_name.d4be1df720
+[0m12:25:20.673825 [debug] [Thread-3 (]: Writing runtime sql for node "test.crime_analytics.source_not_null_crime_police_events_staging_name.d4be1df720"
+[0m12:25:20.673825 [debug] [Thread-3 (]: Using snowflake connection "test.crime_analytics.source_not_null_crime_police_events_staging_name.d4be1df720"
+[0m12:25:20.676011 [debug] [Thread-3 (]: On test.crime_analytics.source_not_null_crime_police_events_staging_name.d4be1df720: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "node_id": "test.crime_analytics.source_not_null_crime_police_events_staging_name.d4be1df720"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select name
+from crime_db.PUBLIC.police_events_staging
+where name is null
+
+
+
+      
+    ) dbt_internal_test
+[0m12:25:20.676533 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m12:25:21.344748 [debug] [Thread-4 (]: SQL status: SUCCESS 1 in 0.723 seconds
+[0m12:25:21.346599 [debug] [Thread-4 (]: On test.crime_analytics.not_null_stg_police_events_name.f741cdcfa0: Close
+[0m12:25:21.380020 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.741 seconds
+[0m12:25:21.381032 [debug] [Thread-1 (]: On test.crime_analytics.not_null_stg_police_events_type.b798cef749: Close
+[0m12:25:21.388208 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 0.726 seconds
+[0m12:25:21.389749 [debug] [Thread-2 (]: On test.crime_analytics.source_not_null_crime_police_events_staging_event_id.8de2e4fd94: Close
+[0m12:25:21.409163 [info ] [Thread-4 (]: 5 of 11 PASS not_null_stg_police_events_name ................................... [[32mPASS[0m in 0.80s]
+[0m12:25:21.410711 [debug] [Thread-4 (]: Finished running node test.crime_analytics.not_null_stg_police_events_name.f741cdcfa0
+[0m12:25:21.411718 [debug] [Thread-4 (]: Began running node test.crime_analytics.source_unique_crime_police_events_staging_event_id.5986b040f5
+[0m12:25:21.412223 [info ] [Thread-4 (]: 9 of 11 START test source_unique_crime_police_events_staging_event_id .......... [RUN]
+[0m12:25:21.413229 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly test.crime_analytics.not_null_stg_police_events_name.f741cdcfa0, now test.crime_analytics.source_unique_crime_police_events_staging_event_id.5986b040f5)
+[0m12:25:21.413787 [debug] [Thread-4 (]: Began compiling node test.crime_analytics.source_unique_crime_police_events_staging_event_id.5986b040f5
+[0m12:25:21.420129 [debug] [Thread-4 (]: Writing injected SQL for node "test.crime_analytics.source_unique_crime_police_events_staging_event_id.5986b040f5"
+[0m12:25:21.421670 [debug] [Thread-4 (]: Began executing node test.crime_analytics.source_unique_crime_police_events_staging_event_id.5986b040f5
+[0m12:25:21.424119 [debug] [Thread-4 (]: Writing runtime sql for node "test.crime_analytics.source_unique_crime_police_events_staging_event_id.5986b040f5"
+[0m12:25:21.425235 [debug] [Thread-4 (]: Using snowflake connection "test.crime_analytics.source_unique_crime_police_events_staging_event_id.5986b040f5"
+[0m12:25:21.426241 [debug] [Thread-4 (]: On test.crime_analytics.source_unique_crime_police_events_staging_event_id.5986b040f5: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "node_id": "test.crime_analytics.source_unique_crime_police_events_staging_event_id.5986b040f5"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+select
+    event_id as unique_field,
+    count(*) as n_records
+
+from crime_db.PUBLIC.police_events_staging
+where event_id is not null
+group by event_id
+having count(*) > 1
+
+
+
+      
+    ) dbt_internal_test
+[0m12:25:21.426241 [debug] [Thread-4 (]: Opening a new connection, currently in state closed
+[0m12:25:21.442436 [debug] [Thread-3 (]: SQL status: SUCCESS 1 in 0.766 seconds
+[0m12:25:21.445043 [debug] [Thread-3 (]: On test.crime_analytics.source_not_null_crime_police_events_staging_name.d4be1df720: Close
+[0m12:25:21.543699 [info ] [Thread-1 (]: 6 of 11 PASS not_null_stg_police_events_type ................................... [[32mPASS[0m in 0.92s]
+[0m12:25:21.545343 [debug] [Thread-1 (]: Finished running node test.crime_analytics.not_null_stg_police_events_type.b798cef749
+[0m12:25:21.546351 [debug] [Thread-1 (]: Began running node test.crime_analytics.unique_fct_police_events_event_id.9a2d51bb05
+[0m12:25:21.546857 [info ] [Thread-1 (]: 10 of 11 START test unique_fct_police_events_event_id .......................... [RUN]
+[0m12:25:21.546857 [info ] [Thread-2 (]: 7 of 11 PASS source_not_null_crime_police_events_staging_event_id .............. [[32mPASS[0m in 0.90s]
+[0m12:25:21.548139 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.crime_analytics.not_null_stg_police_events_type.b798cef749, now test.crime_analytics.unique_fct_police_events_event_id.9a2d51bb05)
+[0m12:25:21.548696 [debug] [Thread-2 (]: Finished running node test.crime_analytics.source_not_null_crime_police_events_staging_event_id.8de2e4fd94
+[0m12:25:21.549240 [debug] [Thread-1 (]: Began compiling node test.crime_analytics.unique_fct_police_events_event_id.9a2d51bb05
+[0m12:25:21.549755 [debug] [Thread-2 (]: Began running node test.crime_analytics.unique_stg_police_events_event_id.ca71ac4aa0
+[0m12:25:21.553987 [debug] [Thread-1 (]: Writing injected SQL for node "test.crime_analytics.unique_fct_police_events_event_id.9a2d51bb05"
+[0m12:25:21.554500 [info ] [Thread-2 (]: 11 of 11 START test unique_stg_police_events_event_id .......................... [RUN]
+[0m12:25:21.555516 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.crime_analytics.source_not_null_crime_police_events_staging_event_id.8de2e4fd94, now test.crime_analytics.unique_stg_police_events_event_id.ca71ac4aa0)
+[0m12:25:21.556030 [debug] [Thread-1 (]: Began executing node test.crime_analytics.unique_fct_police_events_event_id.9a2d51bb05
+[0m12:25:21.556030 [debug] [Thread-2 (]: Began compiling node test.crime_analytics.unique_stg_police_events_event_id.ca71ac4aa0
+[0m12:25:21.559218 [debug] [Thread-1 (]: Writing runtime sql for node "test.crime_analytics.unique_fct_police_events_event_id.9a2d51bb05"
+[0m12:25:21.562327 [debug] [Thread-2 (]: Writing injected SQL for node "test.crime_analytics.unique_stg_police_events_event_id.ca71ac4aa0"
+[0m12:25:21.564278 [debug] [Thread-1 (]: Using snowflake connection "test.crime_analytics.unique_fct_police_events_event_id.9a2d51bb05"
+[0m12:25:21.565285 [debug] [Thread-2 (]: Began executing node test.crime_analytics.unique_stg_police_events_event_id.ca71ac4aa0
+[0m12:25:21.565791 [debug] [Thread-1 (]: On test.crime_analytics.unique_fct_police_events_event_id.9a2d51bb05: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "node_id": "test.crime_analytics.unique_fct_police_events_event_id.9a2d51bb05"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+select
+    event_id as unique_field,
+    count(*) as n_records
+
+from crime_db.staging_mart.fct_police_events
+where event_id is not null
+group by event_id
+having count(*) > 1
+
+
+
+      
+    ) dbt_internal_test
+[0m12:25:21.569766 [debug] [Thread-2 (]: Writing runtime sql for node "test.crime_analytics.unique_stg_police_events_event_id.ca71ac4aa0"
+[0m12:25:21.570284 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m12:25:21.573421 [debug] [Thread-2 (]: Using snowflake connection "test.crime_analytics.unique_stg_police_events_event_id.ca71ac4aa0"
+[0m12:25:21.574464 [debug] [Thread-2 (]: On test.crime_analytics.unique_stg_police_events_event_id.ca71ac4aa0: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "node_id": "test.crime_analytics.unique_stg_police_events_event_id.ca71ac4aa0"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+select
+    event_id as unique_field,
+    count(*) as n_records
+
+from crime_db.staging_staging.stg_police_events
+where event_id is not null
+group by event_id
+having count(*) > 1
+
+
+
+      
+    ) dbt_internal_test
+[0m12:25:21.575634 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m12:25:21.875016 [info ] [Thread-3 (]: 8 of 11 PASS source_not_null_crime_police_events_staging_name .................. [[32mPASS[0m in 1.21s]
+[0m12:25:21.876245 [debug] [Thread-3 (]: Finished running node test.crime_analytics.source_not_null_crime_police_events_staging_name.d4be1df720
+[0m12:25:22.047966 [debug] [Thread-4 (]: SQL status: SUCCESS 1 in 0.621 seconds
+[0m12:25:22.049498 [debug] [Thread-4 (]: On test.crime_analytics.source_unique_crime_police_events_staging_event_id.5986b040f5: Close
+[0m12:25:22.096278 [info ] [Thread-4 (]: 9 of 11 PASS source_unique_crime_police_events_staging_event_id ................ [[32mPASS[0m in 0.68s]
+[0m12:25:22.097813 [debug] [Thread-4 (]: Finished running node test.crime_analytics.source_unique_crime_police_events_staging_event_id.5986b040f5
+[0m12:25:22.182252 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.611 seconds
+[0m12:25:22.183820 [debug] [Thread-1 (]: On test.crime_analytics.unique_fct_police_events_event_id.9a2d51bb05: Close
+[0m12:25:22.194224 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 0.618 seconds
+[0m12:25:22.194224 [debug] [Thread-2 (]: On test.crime_analytics.unique_stg_police_events_event_id.ca71ac4aa0: Close
+[0m12:25:22.229908 [info ] [Thread-1 (]: 10 of 11 PASS unique_fct_police_events_event_id ................................ [[32mPASS[0m in 0.68s]
+[0m12:25:22.232050 [debug] [Thread-1 (]: Finished running node test.crime_analytics.unique_fct_police_events_event_id.9a2d51bb05
+[0m12:25:22.240295 [info ] [Thread-2 (]: 11 of 11 PASS unique_stg_police_events_event_id ................................ [[32mPASS[0m in 0.68s]
+[0m12:25:22.241808 [debug] [Thread-2 (]: Finished running node test.crime_analytics.unique_stg_police_events_event_id.ca71ac4aa0
+[0m12:25:22.243328 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m12:25:22.244335 [debug] [MainThread]: Connection 'list_crime_db_staging_mart' was properly closed.
+[0m12:25:22.244839 [debug] [MainThread]: Connection 'list_crime_db_staging_staging' was properly closed.
+[0m12:25:22.244839 [debug] [MainThread]: Connection 'test.crime_analytics.unique_fct_police_events_event_id.9a2d51bb05' was properly closed.
+[0m12:25:22.244839 [debug] [MainThread]: Connection 'test.crime_analytics.unique_stg_police_events_event_id.ca71ac4aa0' was properly closed.
+[0m12:25:22.245849 [debug] [MainThread]: Connection 'test.crime_analytics.source_not_null_crime_police_events_staging_name.d4be1df720' was properly closed.
+[0m12:25:22.245849 [debug] [MainThread]: Connection 'test.crime_analytics.source_unique_crime_police_events_staging_event_id.5986b040f5' was properly closed.
+[0m12:25:22.246353 [info ] [MainThread]: 
+[0m12:25:22.247007 [info ] [MainThread]: Finished running 11 data tests in 0 hours 0 minutes and 3.47 seconds (3.47s).
+[0m12:25:22.249032 [debug] [MainThread]: Command end result
+[0m12:25:22.274656 [info ] [MainThread]: 
+[0m12:25:22.276172 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m12:25:22.276172 [info ] [MainThread]: 
+[0m12:25:22.277181 [info ] [MainThread]: Done. PASS=11 WARN=0 ERROR=0 SKIP=0 TOTAL=11
+[0m12:25:22.278705 [debug] [MainThread]: Command `dbt test` succeeded at 12:25:22.278705 after 5.25 seconds
+[0m12:25:22.278705 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012320C833D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001232096EF90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012319F6D9D0>]}
+[0m12:25:22.280250 [debug] [MainThread]: Flushing usage events

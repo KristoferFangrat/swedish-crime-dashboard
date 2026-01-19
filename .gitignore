@@ -1,0 +1,3 @@
+# DLT Configuration Files
+.dlt/secrets.toml
+.env

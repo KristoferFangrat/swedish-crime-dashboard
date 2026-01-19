@@ -1,0 +1,42 @@
+version: 2
+
+models:
+  - name: stg_police_events
+    description: Cleaned and standardized police events
+    columns:
+      - name: event_id
+        description: Unique event identifier
+        tests:
+          - unique
+          - not_null
+      - name: name
+        description: Event name/title
+        tests:
+          - not_null
+      - name: type
+        description: Event classification type
+        tests:
+          - not_null
+      - name: event_datetime
+        description: When the event occurred
+      - name: latitude
+        description: GPS latitude
+      - name: longitude
+        description: GPS longitude
+
+  - name: fct_police_events
+    description: Fact table for police events with date dimensions
+    columns:
+      - name: event_id
+        description: Unique event identifier
+        tests:
+          - unique
+          - not_null
+      - name: event_date
+        description: Date the event occurred
+        tests:
+          - not_null
+      - name: type
+        description: Event type
+        tests:
+          - not_null

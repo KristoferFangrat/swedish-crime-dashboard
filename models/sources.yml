@@ -1,0 +1,30 @@
+version: 2
+
+sources:
+  - name: crime
+    description: Crime database source tables
+    database: crime_db
+    schema: PUBLIC
+    tables:
+      - name: police_events_staging
+        description: Raw police events from API
+        columns:
+          - name: event_id
+            description: Unique event identifier
+            tests:
+              - unique
+              - not_null
+          - name: name
+            description: Event name
+            tests:
+              - not_null
+          - name: type
+            description: Event type
+          - name: event_datetime
+            description: Event date and time
+          - name: latitude
+            description: GPS latitude coordinate
+          - name: longitude
+            description: GPS longitude coordinate
+          - name: api_response
+            description: Full raw JSON response from API
