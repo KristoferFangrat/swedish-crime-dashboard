@@ -2087,3 +2087,165 @@ having count(*) > 1
 [0m12:25:22.278705 [debug] [MainThread]: Command `dbt test` succeeded at 12:25:22.278705 after 5.25 seconds
 [0m12:25:22.278705 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012320C833D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001232096EF90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012319F6D9D0>]}
 [0m12:25:22.280250 [debug] [MainThread]: Flushing usage events
+[0m14:03:57.539320 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DFE6EF3D90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DFE6EF31D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DFE6EF3D50>]}
+
+
+============================== 14:03:57.544404 | 70e311de-d5c6-4551-ae26-d065576fefad ==============================
+[0m14:03:57.544404 [info ] [MainThread]: Running with dbt=1.8.0
+[0m14:03:57.545419 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'C:\\DE23\\Crime\\logs', 'version_check': 'True', 'profiles_dir': '.', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt run --profiles-dir .', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m14:03:57.550814 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'SNOWFLAKE_ACCOUNT'
+[0m14:03:57.552378 [debug] [MainThread]: Command `dbt run` failed at 14:03:57.552378 after 0.11 seconds
+[0m14:03:57.552892 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DFE6EF2510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DFE6E9CA50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DFE6ED1590>]}
+[0m14:03:57.553419 [debug] [MainThread]: Flushing usage events
+[0m14:04:14.573856 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028219093310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000282190E4610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028219093F90>]}
+
+
+============================== 14:04:14.578411 | 68b14060-9f25-4500-916f-391869c2908d ==============================
+[0m14:04:14.578411 [info ] [MainThread]: Running with dbt=1.8.0
+[0m14:04:14.578411 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '.', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'c:\\DE23\\Crime\\logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt run --profiles-dir .', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m14:04:17.692301 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+The `data-paths` config has been renamed to `seed-paths`. Please update your
+`dbt_project.yml` configuration to reflect this change.
+[0m14:04:17.692301 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': '68b14060-9f25-4500-916f-391869c2908d', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000282311630D0>]}
+[0m14:04:18.038829 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '68b14060-9f25-4500-916f-391869c2908d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028219123DD0>]}
+[0m14:04:18.087606 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '68b14060-9f25-4500-916f-391869c2908d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002821869B8D0>]}
+[0m14:04:18.089624 [info ] [MainThread]: Registered adapter: snowflake=1.8.0
+[0m14:04:18.112770 [debug] [MainThread]: checksum: dbb12d416fdb55e3665e4828703bbedf40c5c90ed7ca6ff39bbbfb29b12b0a92, vars: {}, profile: , target: , version: 1.8.0
+[0m14:04:19.263673 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m14:04:19.265182 [debug] [MainThread]: Partial parsing: updated file: crime_analytics://models\staging\stg_police_events.sql
+[0m14:04:19.456674 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+The `tests` config has been renamed to `data_tests`. Please see
+https://docs.getdbt.com/docs/build/data-tests#new-data_tests-syntax for more
+information.
+[0m14:04:19.458185 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': '68b14060-9f25-4500-916f-391869c2908d', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002823322D750>]}
+[0m14:04:19.596486 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- seeds.crime_analytics
+[0m14:04:19.605778 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '68b14060-9f25-4500-916f-391869c2908d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000282332B83D0>]}
+[0m14:04:19.705393 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '68b14060-9f25-4500-916f-391869c2908d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028233537010>]}
+[0m14:04:19.706950 [info ] [MainThread]: Found 2 models, 11 data tests, 1 source, 447 macros
+[0m14:04:19.707549 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '68b14060-9f25-4500-916f-391869c2908d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028233301510>]}
+[0m14:04:19.708594 [info ] [MainThread]: 
+[0m14:04:19.709602 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m14:04:19.713698 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_crime_db'
+[0m14:04:19.714205 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_crime_db'
+[0m14:04:19.724542 [debug] [ThreadPool]: Using snowflake connection "list_crime_db"
+[0m14:04:19.726589 [debug] [ThreadPool]: Using snowflake connection "list_crime_db"
+[0m14:04:19.726589 [debug] [ThreadPool]: On list_crime_db: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "connection_name": "list_crime_db"} */
+show terse schemas in database crime_db
+    limit 10000
+[0m14:04:19.726589 [debug] [ThreadPool]: On list_crime_db: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "connection_name": "list_crime_db"} */
+show terse schemas in database crime_db
+    limit 10000
+[0m14:04:19.728135 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:04:19.728135 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:04:20.514104 [debug] [ThreadPool]: SQL status: SUCCESS 5 in 0.786 seconds
+[0m14:04:20.515677 [debug] [ThreadPool]: SQL status: SUCCESS 5 in 0.787 seconds
+[0m14:04:20.517218 [debug] [ThreadPool]: On list_crime_db: Close
+[0m14:04:20.517218 [debug] [ThreadPool]: On list_crime_db: Close
+[0m14:04:20.579389 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_crime_db_staging_mart'
+[0m14:04:20.579893 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_crime_db_staging_staging'
+[0m14:04:20.587154 [debug] [ThreadPool]: Using snowflake connection "list_crime_db_staging_mart"
+[0m14:04:20.588693 [debug] [ThreadPool]: Using snowflake connection "list_crime_db_staging_staging"
+[0m14:04:20.588693 [debug] [ThreadPool]: On list_crime_db_staging_mart: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "connection_name": "list_crime_db_staging_mart"} */
+show terse objects in crime_db.staging_mart limit 10000
+[0m14:04:20.590256 [debug] [ThreadPool]: On list_crime_db_staging_staging: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "connection_name": "list_crime_db_staging_staging"} */
+show terse objects in crime_db.staging_staging limit 10000
+[0m14:04:20.590256 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:04:20.590256 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:04:21.253175 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.662 seconds
+[0m14:04:21.254296 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.663 seconds
+[0m14:04:21.255002 [debug] [ThreadPool]: On list_crime_db_staging_staging: Close
+[0m14:04:21.256546 [debug] [ThreadPool]: On list_crime_db_staging_mart: Close
+[0m14:04:21.307876 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '68b14060-9f25-4500-916f-391869c2908d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028232E9E490>]}
+[0m14:04:21.309417 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m14:04:21.309417 [info ] [MainThread]: 
+[0m14:04:21.323365 [debug] [Thread-1 (]: Began running node model.crime_analytics.stg_police_events
+[0m14:04:21.323365 [info ] [Thread-1 (]: 1 of 2 START sql table model staging_staging.stg_police_events ................. [RUN]
+[0m14:04:21.324923 [debug] [Thread-1 (]: Acquiring new snowflake connection 'model.crime_analytics.stg_police_events'
+[0m14:04:21.324923 [debug] [Thread-1 (]: Began compiling node model.crime_analytics.stg_police_events
+[0m14:04:21.332741 [debug] [Thread-1 (]: Writing injected SQL for node "model.crime_analytics.stg_police_events"
+[0m14:04:21.334278 [debug] [Thread-1 (]: Began executing node model.crime_analytics.stg_police_events
+[0m14:04:21.357593 [debug] [Thread-1 (]: Writing runtime sql for node "model.crime_analytics.stg_police_events"
+[0m14:04:21.359132 [debug] [Thread-1 (]: Using snowflake connection "model.crime_analytics.stg_police_events"
+[0m14:04:21.359132 [debug] [Thread-1 (]: On model.crime_analytics.stg_police_events: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "node_id": "model.crime_analytics.stg_police_events"} */
+create or replace transient table crime_db.staging_staging.stg_police_events
+         as
+        (
+
+SELECT
+    event_id,
+    name,
+    name AS description,
+    type,
+    location,
+    latitude,
+    longitude,
+    datetime::TIMESTAMP_NTZ AS event_datetime,
+    affected_area,
+    api_response,
+    loaded_at,
+    CURRENT_TIMESTAMP() AS dbt_loaded_at
+FROM crime_db.PUBLIC.police_events_staging
+WHERE event_id IS NOT NULL
+        );
+[0m14:04:21.359132 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m14:04:23.369288 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 2.009 seconds
+[0m14:04:23.385695 [debug] [Thread-1 (]: On model.crime_analytics.stg_police_events: Close
+[0m14:04:23.438029 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '68b14060-9f25-4500-916f-391869c2908d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002823332A3D0>]}
+[0m14:04:23.438029 [info ] [Thread-1 (]: 1 of 2 OK created sql table model staging_staging.stg_police_events ............ [[32mSUCCESS 1[0m in 2.11s]
+[0m14:04:23.439569 [debug] [Thread-1 (]: Finished running node model.crime_analytics.stg_police_events
+[0m14:04:23.440716 [debug] [Thread-3 (]: Began running node model.crime_analytics.fct_police_events
+[0m14:04:23.441232 [info ] [Thread-3 (]: 2 of 2 START sql table model staging_mart.fct_police_events .................... [RUN]
+[0m14:04:23.441743 [debug] [Thread-3 (]: Acquiring new snowflake connection 'model.crime_analytics.fct_police_events'
+[0m14:04:23.442252 [debug] [Thread-3 (]: Began compiling node model.crime_analytics.fct_police_events
+[0m14:04:23.445292 [debug] [Thread-3 (]: Writing injected SQL for node "model.crime_analytics.fct_police_events"
+[0m14:04:23.446298 [debug] [Thread-3 (]: Began executing node model.crime_analytics.fct_police_events
+[0m14:04:23.448313 [debug] [Thread-3 (]: Writing runtime sql for node "model.crime_analytics.fct_police_events"
+[0m14:04:23.449821 [debug] [Thread-3 (]: Using snowflake connection "model.crime_analytics.fct_police_events"
+[0m14:04:23.450833 [debug] [Thread-3 (]: On model.crime_analytics.fct_police_events: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "crime_analytics", "target_name": "dev", "node_id": "model.crime_analytics.fct_police_events"} */
+create or replace transient table crime_db.staging_mart.fct_police_events
+         as
+        (
+
+SELECT
+    event_id,
+    name,
+    description,
+    type,
+    location,
+    latitude,
+    longitude,
+    event_datetime,
+    affected_area,
+    DATE(event_datetime) AS event_date,
+    EXTRACT(HOUR FROM event_datetime) AS event_hour,
+    EXTRACT(DAYOFWEEK FROM event_datetime) AS day_of_week,
+    dbt_loaded_at
+FROM crime_db.staging_staging.stg_police_events
+        );
+[0m14:04:23.451350 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m14:04:24.894647 [debug] [Thread-3 (]: SQL status: SUCCESS 1 in 1.444 seconds
+[0m14:04:24.897711 [debug] [Thread-3 (]: On model.crime_analytics.fct_police_events: Close
+[0m14:04:24.948982 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '68b14060-9f25-4500-916f-391869c2908d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028233364610>]}
+[0m14:04:24.948982 [info ] [Thread-3 (]: 2 of 2 OK created sql table model staging_mart.fct_police_events ............... [[32mSUCCESS 1[0m in 1.51s]
+[0m14:04:24.950511 [debug] [Thread-3 (]: Finished running node model.crime_analytics.fct_police_events
+[0m14:04:24.950511 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m14:04:24.952068 [debug] [MainThread]: Connection 'list_crime_db' was properly closed.
+[0m14:04:24.952664 [debug] [MainThread]: Connection 'list_crime_db' was properly closed.
+[0m14:04:24.953177 [debug] [MainThread]: Connection 'list_crime_db_staging_mart' was properly closed.
+[0m14:04:24.953177 [debug] [MainThread]: Connection 'list_crime_db_staging_staging' was properly closed.
+[0m14:04:24.953177 [debug] [MainThread]: Connection 'model.crime_analytics.stg_police_events' was properly closed.
+[0m14:04:24.954239 [debug] [MainThread]: Connection 'model.crime_analytics.fct_police_events' was properly closed.
+[0m14:04:24.954760 [info ] [MainThread]: 
+[0m14:04:24.955770 [info ] [MainThread]: Finished running 2 table models in 0 hours 0 minutes and 5.25 seconds (5.25s).
+[0m14:04:24.956279 [debug] [MainThread]: Command end result
+[0m14:04:24.978971 [info ] [MainThread]: 
+[0m14:04:24.978971 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m14:04:24.980510 [info ] [MainThread]: 
+[0m14:04:24.980510 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=0 SKIP=0 TOTAL=2
+[0m14:04:24.982061 [debug] [MainThread]: Command `dbt run` succeeded at 14:04:24.982061 after 10.48 seconds
+[0m14:04:24.982061 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002821240DBD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028212390610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028212390790>]}
+[0m14:04:24.982061 [debug] [MainThread]: Flushing usage events

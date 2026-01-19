@@ -9,7 +9,7 @@
 SELECT
     event_id,
     name,
-    description,
+    name AS description,
     type,
     location,
     latitude,

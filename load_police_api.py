@@ -63,19 +63,36 @@ def insert_events(conn, events: List[Dict]):
     
     cursor = conn.cursor()
     rows_inserted = 0
+    rows_skipped = 0
     
     for event in events:
         try:
             # Extract fields
             event_id = str(event.get("id", ""))
             name = str(event.get("name", ""))
-            description = str(event.get("description", ""))
+            description = str(event.get("summary", ""))  # API uses 'summary' not 'description'
             event_type = str(event.get("type", ""))
-            location = str(event.get("location", ""))
-            latitude = event.get("latitude")
-            longitude = event.get("longitude")
+            
+            # Parse location - API returns location as dict with 'name' and 'gps'
+            location_data = event.get("location", {})
+            location_name = location_data.get("name", "") if isinstance(location_data, dict) else str(location_data)
+            location = json.dumps(location_data) if isinstance(location_data, dict) else str(location_data)
+            
+            # Parse GPS coordinates from "latitude,longitude" format
+            latitude = None
+            longitude = None
+            gps_string = location_data.get("gps", "") if isinstance(location_data, dict) else ""
+            
+            if gps_string:
+                try:
+                    lat_str, lon_str = gps_string.strip().split(",")
+                    latitude = float(lat_str.strip())
+                    longitude = float(lon_str.strip())
+                except (ValueError, AttributeError) as e:
+                    print(f"Warning: Could not parse GPS '{gps_string}' for event {event_id}: {e}")
+            
             datetime_val = str(event.get("datetime", ""))
-            affected_area = str(event.get("affected_area", ""))
+            affected_area = location_name  # Use location name as affected area
             api_response = json.dumps(event)
             
             # Use parameterized query with TRY_PARSE_JSON
@@ -91,13 +108,16 @@ def insert_events(conn, events: List[Dict]):
             ))
             rows_inserted += 1
             
-        except Exception as e:
-            if rows_inserted % 50 == 0:  # Log every 50 events
+            if rows_inserted % 50 == 0:
                 print(f"Inserted {rows_inserted} events so far...")
+            
+        except Exception as e:
+            rows_skipped += 1
+            print(f"Error inserting event {event.get('id', 'unknown')}: {e}")
     
     conn.commit()
     cursor.close()
-    print(f"Inserted {rows_inserted} events into staging table")
+    print(f"Inserted {rows_inserted} events, skipped {rows_skipped} events")
 
 def main():
     """Main ETL pipeline"""
@@ -117,21 +137,44 @@ def main():
         # Create staging table
         create_staging_table(conn)
         
+        # Truncate staging table to avoid duplicates
+        cursor = conn.cursor()
+        cursor.execute("TRUNCATE TABLE crime_db.PUBLIC.police_events_staging")
+        cursor.close()
+        print("Cleared staging table")
+        
         # Insert events
         insert_events(conn, events)
         
-        # Verify load
+        # Verify load and show statistics
         cursor = conn.cursor()
-        cursor.execute("SELECT COUNT(*) FROM crime_db.PUBLIC.police_events_staging")
-        count = cursor.fetchone()[0]
+        cursor.execute("""
+            SELECT 
+                COUNT(*) as total_events,
+                COUNT(CASE WHEN latitude IS NOT NULL AND longitude IS NOT NULL THEN 1 END) as events_with_coords,
+                COUNT(CASE WHEN latitude IS NULL OR longitude IS NULL THEN 1 END) as events_without_coords
+            FROM crime_db.PUBLIC.police_events_staging
+        """)
+        result = cursor.fetchone()
         cursor.close()
-        print(f"Total events in staging: {count}")
+        
+        total, with_coords, without_coords = result
+        print(f"\nLoad Statistics:")
+        print(f"  Total events: {total}")
+        print(f"  Events with coordinates: {with_coords}")
+        print(f"  Events without coordinates: {without_coords}")
+        
+        if total > 0:
+            coverage = (with_coords / total) * 100
+            print(f"  Coverage: {coverage:.1f}%")
         
         conn.close()
-        print("Data load complete!")
+        print("\nData load complete!")
         
     except snowflake.connector.errors.Error as e:
         print(f"Snowflake error: {e}")
+    except Exception as e:
+        print(f"Error: {e}")
 
 if __name__ == "__main__":
     main()

@@ -247,24 +247,68 @@ SELECT
     type,
     location,
     event_datetime,
-    day_of_week
+    day_of_week,
+    CAST(latitude AS FLOAT) as latitude,
+    CAST(longitude AS FLOAT) as longitude
 FROM crime_db.staging_mart.fct_police_events
+WHERE latitude IS NOT NULL AND longitude IS NOT NULL
 LIMIT 100
 """
 
 df_raw = get_data(query_raw)
 
 if df_raw is not None:
-    df_raw["location_name"] = df_raw["LOCATION"].str.extract(r"'name':\s*'([^']*)'")
+    df_raw["location_name"] = df_raw["LOCATION"].str.extract(r'"name":\s*"([^"]*)"')
     df_raw["day_name"] = df_raw["DAY_OF_WEEK"].map(day_names)
 
     display_df = df_raw[
-        ["EVENT_ID", "TYPE", "location_name", "EVENT_DATETIME", "day_name"]
+        ["EVENT_ID", "TYPE", "location_name", "EVENT_DATETIME", "day_name", "LATITUDE", "LONGITUDE"]
     ]
 
-    display_df.columns = ["Event ID", "Type", "Location", "Date & Time", "Day"]
+    display_df.columns = ["Event ID", "Type", "Location", "Date & Time", "Day", "latitude", "longitude"]
+    
+    # Ensure coordinates are numeric
+    display_df["latitude"] = pd.to_numeric(display_df["latitude"], errors='coerce')
+    display_df["longitude"] = pd.to_numeric(display_df["longitude"], errors='coerce')
 
-    st.dataframe(display_df, width="stretch", hide_index=True)
+    st.dataframe(display_df, use_container_width=True, hide_index=True)
+
+    # Interactive map with Plotly
+    show_map = st.checkbox("Show interactive map", value=False)
+
+    if show_map:
+        # Filter out rows with missing coordinates
+        map_df = display_df.dropna(subset=['latitude', 'longitude']).copy()
+        
+        if len(map_df) > 0:
+            fig = px.scatter_mapbox(
+                map_df,
+                lat='latitude',
+                lon='longitude',
+                hover_name='Location',
+                hover_data={
+                    'Type': True, 
+                    'Event ID': True, 
+                    'latitude': ':.4f', 
+                    'longitude': ':.4f',
+                    'Location': False  # Hide Location from hover_data since it's the hover_name
+                },
+                labels={'Type': 'Crime Type'},
+                title='Crime Events Map',
+                zoom=5,
+                center={'lat': 60.1, 'lon': 18.6},  # Center on Sweden
+                mapbox_style='open-street-map',
+                color='Type',
+                size_max=15,
+                height=600
+            )
+            fig.update_layout(
+                margin={"r": 0, "t": 30, "l": 0, "b": 0},
+                hovermode='closest'
+            )
+            st.plotly_chart(fig, use_container_width=True)
+        else:
+            st.info("No coordinates available for map.")
 
 
 # =======================
