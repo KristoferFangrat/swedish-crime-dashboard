@@ -11,7 +11,7 @@ profile: 'crime_analytics'
 model-paths: ["models"]
 analysis-paths: ["analyses"]
 test-paths: ["tests"]
-data-paths: ["data"]
+seed-paths: ["data"]
 macro-paths: ["macros"]
 snapshot-paths: ["snapshots"]
 
@@ -28,10 +28,6 @@ models:
     marts:
       +materialized: table
       +schema: mart
-
-seeds:
-  crime_analytics:
-    +schema: seeds
 
 vars:
   start_date: '2026-01-01'
